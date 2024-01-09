@@ -56,8 +56,7 @@ const NavBar = () => {
       {!navBarOpen && (<img src={Logo} alt="Logo" className= 'logo'/>) }
       {!navBarOpen && windowDimension.with < 800 ? (<IoMenu size={25} onClick={() => setNavBarOpen(!navBarOpen)}/> ): (windowDimension.with < 800 && (<IoClose size={25} onClick={() => setNavBarOpen(!navBarOpen)}/>))
       }
-        {
-          navBarOpen ||
+        { navBarOpen ||
           (windowDimension.with > 800 && (
             <ul className='linksConteiner'>
             {links.map(x => (
