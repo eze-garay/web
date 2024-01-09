@@ -10,7 +10,7 @@ import Products from './components/Products/Products';
 function App() {
   return (
     <div className="App">
-      <NavBar></NavBar>
+      <NavBar/>
       <Home/>
       <Blog/>
       <Products/>
