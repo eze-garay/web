@@ -2,7 +2,9 @@
 import Contact from './components/Contact/Contact';
 import Home from './components/Home/Home';
 import NavBar from './components/NavBar/NavBar';
-import Items from './components/Items/Items';
+import Blog from './components/Blog/Blog';
+import Products from './components/Products/Products';
+
 
 
 function App() {
@@ -10,8 +12,10 @@ function App() {
     <div className="App">
       <NavBar></NavBar>
       <Home/>
+      <Blog/>
+      <Products/>
       <Contact/>
-      <Items/>
+      
       
       
       
