@@ -1,8 +1,10 @@
+
+
 .navBar {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    background-color: aqua;
+    background-color: FFFFFF;
     
 }
 .navOpen {
@@ -11,7 +13,7 @@
     position: absolute;
     align-items: center;
     width: 100%;
-    background-color: red;
+    background-color: FFFFFF;
 }
 
 .links {
@@ -19,7 +21,8 @@
     font-size: 2rem;
     font-weight: 300;
     padding-top: 20px;
-
+    font-family: 'Gilroy Medium', sans-serif; ;
+    
 }
 
 .links:hover {
@@ -53,4 +56,9 @@
         padding-top: 5px;
     
     }
+}
+
+@font-face {
+    font-family: 'Gilroy Medium';
+    src: url('web\public\fonts\font gilroy\Gilroy-Medium.ttf') format('truetype');
 }

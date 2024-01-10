@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from "react-scroll";
-import Logo from './assest/logo.png';
+import Logo from './assest/Logo jackery.svg';
 import { IoMenu } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
 import './NavBar.css';
@@ -65,7 +65,7 @@ const NavBar = () => {
         <ul className='linksConteiner'>
           {links.map((x) => (
             <div key={x.id}>
-              <Link
+              <Link 
                 onClick={() => setNavBarOpen(false)}
                 to={x.link}
                 smooth
