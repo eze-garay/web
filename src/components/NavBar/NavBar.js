@@ -52,22 +52,32 @@ const NavBar = () => {
   ]
 
   return (
-    <div className= {!navBarOpen === true ? 'navBar' : 'navOpen' } > 
-      {!navBarOpen && (<img src={Logo} alt="Logo" className= 'logo'/>) }
-      {!navBarOpen && windowDimension.with < 800 ? (<IoMenu size={25} onClick={() => setNavBarOpen(!navBarOpen)}/> ): (windowDimension.with < 800 && (<IoClose size={25} onClick={() => setNavBarOpen(!navBarOpen)}/>))
-      }
-        { navBarOpen ||
-          (windowDimension.with > 800 && (
-            <ul className='linksConteiner'>
-            {links.map(x => (
-             <div>
-               <Link   onClick = { () => setNavBarOpen(false)}
-                to={x.link} smooth duration={500} className='links' > {x.link} </Link>
-             </div>
-           ))}
-           </ul>
-          ))
-        }
+    <div className={!navBarOpen ? 'navBar' : 'navOpen'}>
+      {!navBarOpen && <img src={Logo} alt="Logo" className='logo' />}
+      {!navBarOpen && windowDimension.with < 800 ? (
+        <IoMenu size={25} onClick={() => setNavBarOpen(!navBarOpen)} />
+      ) : (
+        windowDimension.with < 800 && (
+          <IoClose size={25} onClick={() => setNavBarOpen(!navBarOpen)} />
+        )
+      )}
+      {navBarOpen || windowDimension.with > 800 ? (
+        <ul className='linksConteiner'>
+          {links.map((x) => (
+            <div key={x.id}>
+              <Link
+                onClick={() => setNavBarOpen(false)}
+                to={x.link}
+                smooth
+                duration={500}
+                className='links'
+              >
+                {x.link}
+              </Link>
+            </div>
+          ))}
+        </ul>
+      ) : null}
     </div>
   );
 };
