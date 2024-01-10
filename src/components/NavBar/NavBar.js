@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import Logo from './assest/Logo jackery.svg';
 import { IoMenu } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
+
 import './NavBar.css';
 
 
