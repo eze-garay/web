@@ -1,0 +1,73 @@
+
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+}
+
+.conteinerBanner {
+  flex: 1; 
+  background-color: #ff5000;
+ 
+}
+.Banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+
+}
+.BannerTex {
+   
+    width: 100vh;
+    height: 50vh;
+
+}
+.BannerTexTitle {
+    font-family: Gilory Bold;
+    color: white;
+    font-size: 70px;
+    
+}
+.BannerTexSubTitle {
+    font-family: Gilory Medium;
+    color: white;
+    font-size: 20px;
+}
+.BannerTexBody {
+    font-family: Gilory Medium;
+    color: white;
+    font-size: 10px;
+}
+.BannerImg {
+    background-color: black;
+    width: 100vh;
+    height: 50vh;
+
+
+}
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.conteinerCards {
+  flex: 3; 
+  background-color: #2ecc71; 
+}
+
+.conteinerFooter {
+  flex: 1; 
+  background-color: #e74c3c; 
+}
+
+
+
+
+
+@font-face {
+    font-family: Gilory Medium;
+    src: url(./fonts/Gilroy-Medium.ttf);
+    font-family: Gilory Bold;
+    src: url(./fonts/Gilroy-Bold.ttf);
+}
