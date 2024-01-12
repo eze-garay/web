@@ -8,15 +8,23 @@
     justify-content: space-between;
     align-content: center;
     background-color: FFFFFF;
+    margin: 20px;
     
 }
+.linksConteiner {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto; /* Esto centrará el contenedor de enlaces en el medio de la página */
+  }
 .navOpen {
     display: flex;
     flex-direction: column-reverse;
     position: absolute;
     align-items: center;
     width: 100%;
-    height: 35%;
+    height: 15%;
     background-color: white;
     opacity: 60%;
 }
@@ -26,12 +34,10 @@
     color: black;
     display: flex;
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 200;
     padding-top: 20px;
     font-family: Gilory Medium;
-
-    
-}
+  }
 
 .links:hover {
     cursor: pointer;
