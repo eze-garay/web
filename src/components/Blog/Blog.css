@@ -62,6 +62,35 @@
 /*Card*/
 
 
+
+.menuSlider {
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+.menuSliderTex {
+    margin: 20px;
+    cursor: pointer;
+   
+       
+    
+    
+}
+.menuSliderTex p{
+    color: #ff5000;
+    font-family: Gilory bold;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 20px;
+
+} 
+
+
+
 .conteinerCards {
     flex: 3; 
     margin: 0 auto;
@@ -169,7 +198,7 @@
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     /*Banner*/
     .img {
         display: none;
@@ -206,6 +235,14 @@
     .slider {
         flex-direction: column; 
         align-items: center; 
+    }
+    .menuSlider {
+        flex-direction: column; /* Cambia a dirección de columna en pantallas pequeñas */
+        align-items: center; /* Centra los elementos */
+    }
+    
+    .menuSliderTex {
+        margin: 10px; /* Ajusta el margen para que se vea mejor en pantallas pequeñas */
     }
 
     /*Footer*/

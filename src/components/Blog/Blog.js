@@ -1,4 +1,3 @@
-
 import React from 'react';
 import './Blog.css';
 import banner from './assest/banner.jpg';
@@ -11,14 +10,9 @@ import { TiSocialFacebook } from 'react-icons/ti';
 import { TiSocialTwitter } from 'react-icons/ti';
 import { SlSocialInstagram } from 'react-icons/sl';
 import { Link } from 'react-scroll';
-import { Element } from 'react-scroll';
-
-
-
 
 const Blog = () => {
   return (
-    <Element name='Blog'>
     <div className='conteiner'>
       <header className='conteinerBanner'>
         <div className='Banner'>
@@ -35,30 +29,77 @@ const Blog = () => {
         </div>
       </header>
 
+      <section className='conteinerCards'>
+        <div className="menuSlider">
+          <Link
+            to="consejosDeCompra"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="menuSliderTex"
+          >
+            <p>Consejos de Compra</p>
+          </Link>
+          <Link
+            to="estiloDeVida"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="menuSliderTex"
+          >
+            <p>Estilo de Vida</p>
+          </Link>
+          <Link
+            to="emergencia"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="menuSliderTex"
+          >
+            <p>Emergencia</p>
+          </Link>
+          <Link
+            to="conocimiento"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="menuSliderTex"
+          >
+            <p>Conocimiento</p>
+          </Link>
+          <Link
+            to="novedades"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="menuSliderTex"
+          >
+            <p>Novedades</p>
+          </Link>
+        </div>
 
-      <section className='conteinerCards'> 
-      <div className="containerSlider">
-      <p className="texSlider">Consejos de Compra</p>
-      <Slider1/>
-      </div>
-      <div className="containerSlider">
-      <p className="texSlider">Estilo de Vida</p>
-      <Slider2/>
-      </div>
-      <div className="containerSlider">
-      <p className="texSlider">Emergencia</p>
-      <Slider3/>
-      </div>
-      <div className="containerSlider">
-      <p className="texSlider">Conocimiento</p>
-      <Slider4/>
-      </div>
-      <div className="containerSlider">
-      <p className="texSlider">Novedades</p>
-      <Slider5/>
-      </div>
+        <div id="consejosDeCompra" className="containerSlider">
+          <p className="texSlider">Consejos de Compra</p>
+          <Slider1 />
+        </div>
+        <div id="estiloDeVida" className="containerSlider">
+          <p className="texSlider">Estilo de Vida</p>
+          <Slider2 />
+        </div>
+        <div id="emergencia" className="containerSlider">
+          <p className="texSlider">Emergencia</p>
+          <Slider3 />
+        </div>
+        <div id="conocimiento" className="containerSlider">
+          <p className="texSlider">Conocimiento</p>
+          <Slider4 />
+        </div>
+        <div id="novedades" className="containerSlider">
+          <p className="texSlider">Novedades</p>
+          <Slider5 />
+        </div>
       </section>
-      
+
       <footer className='conteinerFooter'>
         <p className='footerSocialTitle'>Jackery</p>
         <section className='footerSocial'>
@@ -88,8 +129,6 @@ const Blog = () => {
         <p className='footerTex2'>@2024 Jackery Inc. All rights reserved</p>
       </footer>
     </div>
-    </Element>
-
   );
 };
 

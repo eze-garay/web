@@ -1,56 +1,40 @@
+// NavBar.js
 import React, { useEffect, useState } from 'react';
-import { Link } from "react-scroll";
+import { Link } from 'react-router-dom';
 import Logo from './assest/Logo jackery.svg';
-import { IoMenu } from "react-icons/io5";
-import { IoClose } from "react-icons/io5";
+import { IoMenu } from 'react-icons/io5';
+import { IoClose } from 'react-icons/io5';
 
 import './NavBar.css';
 
-
-
 const NavBar = () => {
-  const [navBarOpen, setNavBarOpen]= useState (false);
+  const [navBarOpen, setNavBarOpen] = useState(false);
   const [windowDimension, setWindowsDimension] = useState({
     with: window.innerWidth,
     height: window.innerHeight,
   });
 
-
-  const detecDimension = () =>{
+  const detecDimension = () => {
     setWindowsDimension({
       with: window.innerWidth,
       height: window.innerHeight,
-    })
+    });
   };
 
-  useEffect(()=>{
-    window.addEventListener('resize', detecDimension)
-    windowDimension.with > 800 && (setNavBarOpen(false))
-    return ()=> {
-      window.removeEventListener('resize',detecDimension)
-    }
-
-  }, [windowDimension])
-
+  useEffect(() => {
+    window.addEventListener('resize', detecDimension);
+    windowDimension.with > 800 && setNavBarOpen(false);
+    return () => {
+      window.removeEventListener('resize', detecDimension);
+    };
+  }, [windowDimension]);
 
   const links = [
-    {
-      id: 1,
-      link: "Home",
-    },
-    {
-      id: 2,
-      link: "Products",
-    },
-    {
-      id: 3,
-      link: "Blog",
-    },
-    {
-      id: 4,
-      link: "Contact",
-    },
-  ]
+    { id: 1, link: "Home" },
+    { id: 2, link: "Products" },
+    { id: 3, link: "Blog" },
+    { id: 4, link: "Contact" },
+  ];
 
   return (
     <div className={!navBarOpen ? 'navBar' : 'navOpen'}>
@@ -66,11 +50,9 @@ const NavBar = () => {
         <ul className='linksConteiner'>
           {links.map((x) => (
             <div key={x.id}>
-              <Link 
-                onClick={() => setNavBarOpen(false)}
+              <Link
                 to={x.link}
-                smooth
-                duration={500}
+                onClick={() => setNavBarOpen(false)}
                 className='links'
               >
                 {x.link}
@@ -83,4 +65,5 @@ const NavBar = () => {
   );
 };
 
-export default NavBar
+export default NavBar;
+
