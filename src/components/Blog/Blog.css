@@ -61,11 +61,39 @@
 
 /*Card*/
 
+
 .conteinerCards {
-  flex: 3; 
-  background-color: #2ecc71; 
-  min-height: 100vh;
+    flex: 3; 
+    margin: 0 auto;
+    padding: 30px;
+    background: color ddd 5c 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+  }
+
+.containerSlider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 20px;
+    overflow: hidden;
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background-color: white;
 }
+.texSlider{
+    font-family: Gilory Bold;
+    color: #ff5000;
+    font-size: 30px;
+    margin-right: 10px; 
+}
+
 
 
 
@@ -169,6 +197,15 @@
 
     .BannerTexBody {
         font-size: 8px; 
+    }
+
+    /*Slioder*/
+    .conteinerCards {
+        padding: 10px; 
+    }
+    .slider {
+        flex-direction: column; 
+        align-items: center; 
     }
 
     /*Footer*/

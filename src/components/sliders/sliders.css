@@ -1,18 +1,18 @@
-.sliderContainer{
-    margin: 0 auto;
+.sliderContainer {
+   
     overflow: hidden;
-    border: 1px solid red;
+   
 }
-.slider{
+.slider {
     display: flex;
     cursor: grab;
 }
-.item{
+.item {
     height: 10rem;
     max-width: 30rem;
-    padding: 2rem;
+    
 }
-.item img{
+.item img {
     height: 100%;
     width: 100%;
     pointer-events: none;

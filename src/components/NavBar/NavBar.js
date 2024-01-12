@@ -56,7 +56,7 @@ const NavBar = () => {
     <div className={!navBarOpen ? 'navBar' : 'navOpen'}>
       {!navBarOpen && <img src={Logo} alt="Logo" className='logo' />}
       {!navBarOpen && windowDimension.with < 800 ? (
-        <IoMenu size={25} onClick={() => setNavBarOpen(!navBarOpen)} />
+        <IoMenu size={50} onClick={() => setNavBarOpen(!navBarOpen)} />
       ) : (
         windowDimension.with < 800 && (
           <IoClose size={25} onClick={() => setNavBarOpen(!navBarOpen)} />
