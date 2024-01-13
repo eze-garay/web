@@ -1,11 +1,11 @@
 import React from 'react';
 import './Blog.css';
 import banner from './assest/banner.jpg';
-import Slider1 from "../sliders/sliders";
-import Slider2 from "../sliders/sliders2";
-import Slider3 from "../sliders/sliders3";
-import Slider4 from "../sliders/sliders4";
-import Slider5 from "../sliders/sliders5";
+import Cards from '../sliders/cards';
+import Cards2 from '../sliders/cards2';
+import Cards3 from '../sliders/cards3';
+import Cards4 from '../sliders/cards4';
+import Cards5 from '../sliders/cards5';
 import { TiSocialFacebook } from 'react-icons/ti';
 import { TiSocialTwitter } from 'react-icons/ti';
 import { SlSocialInstagram } from 'react-icons/sl';
@@ -29,8 +29,14 @@ const Blog = () => {
         </div>
       </header>
 
-      <section className='conteinerCards'>
-        <div className="menuSlider">
+      <div className="menuSlider">
+          <Link
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            className="menuSliderTex"
+          >
+            <p>TODOS</p>
+          </Link>
+
           <Link
             to="consejosDeCompra"
             spy={true}
@@ -38,7 +44,7 @@ const Blog = () => {
             duration={500}
             className="menuSliderTex"
           >
-            <p>Consejos de Compra</p>
+            <p>CONSEJOS DE COMPRA</p>
           </Link>
           <Link
             to="estiloDeVida"
@@ -47,7 +53,7 @@ const Blog = () => {
             duration={500}
             className="menuSliderTex"
           >
-            <p>Estilo de Vida</p>
+            <p>ESTILOS DE VIDA</p>
           </Link>
           <Link
             to="emergencia"
@@ -56,7 +62,7 @@ const Blog = () => {
             duration={500}
             className="menuSliderTex"
           >
-            <p>Emergencia</p>
+            <p>EMERGENCIA</p>
           </Link>
           <Link
             to="conocimiento"
@@ -65,7 +71,7 @@ const Blog = () => {
             duration={500}
             className="menuSliderTex"
           >
-            <p>Conocimiento</p>
+            <p>CONOCIMIENTO</p>
           </Link>
           <Link
             to="novedades"
@@ -74,29 +80,51 @@ const Blog = () => {
             duration={500}
             className="menuSliderTex"
           >
-            <p>Novedades</p>
+            <p>NOVEDADES</p>
           </Link>
+      </div>
+
+      <section className='conteinerCards'>
+ 
+
+        <div id="consejosDeCompra" className="cardSlider container mb-3">
+          <p className="texSlider">CONSEJOS DE COMPRA</p>
+          <Cards />
+          <a href="https://tu-pagina.com" className="myButton mb-3" target="_blank" rel="noopener noreferrer">
+        EXPLORAR MÁS
+          </a>
         </div>
 
-        <div id="consejosDeCompra" className="containerSlider">
-          <p className="texSlider">Consejos de Compra</p>
-          <Slider1 />
+        <div id="estiloDeVida" className="cardSlider container mb-3">
+        <p className="texSlider">ESTILO DE VIDA</p>
+          <Cards2 />
+          <a href="https://tu-pagina.com" className="myButton mb-3" target="_blank" rel="noopener noreferrer">
+        EXPLORAR MÁS
+          </a>
         </div>
-        <div id="estiloDeVida" className="containerSlider">
-          <p className="texSlider">Estilo de Vida</p>
-          <Slider2 />
+
+        <div id="emergencia" className="cardSlider container mb-3">
+        <p className="texSlider">EMERGENCIA</p>
+          <Cards3 />
+          <a href="https://tu-pagina.com" className="myButton mb-3" target="_blank" rel="noopener noreferrer">
+        EXPLORAR MÁS
+          </a>
         </div>
-        <div id="emergencia" className="containerSlider">
-          <p className="texSlider">Emergencia</p>
-          <Slider3 />
+
+        <div id="conocimiento" className="cardSlider container mb-3">
+        <p className="texSlider">CONOCIMIENTO</p>
+          <Cards4 />
+          <a href="https://tu-pagina.com" className="myButton mb-3" target="_blank" rel="noopener noreferrer">
+        EXPLORAR MÁS
+          </a>
         </div>
-        <div id="conocimiento" className="containerSlider">
-          <p className="texSlider">Conocimiento</p>
-          <Slider4 />
-        </div>
-        <div id="novedades" className="containerSlider">
-          <p className="texSlider">Novedades</p>
-          <Slider5 />
+
+        <div id="novedades" className="cardSlider container mb-3">
+        <p className="texSlider">NOVEDADES</p>
+          <Cards5 />
+          <a href="https://tu-pagina.com" className="myButton mb-3" target="_blank" rel="noopener noreferrer">
+        EXPLORAR MÁS
+          </a>
         </div>
       </section>
 

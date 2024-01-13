@@ -1,0 +1,11 @@
+@font-face {
+    font-family: Gilory Medium;
+    src: url(./fonts/Gilroy-Medium.ttf);
+    font-family: Gilory Bold;
+    src: url(./fonts/Gilroy-Bold.ttf);
+}
+
+.card-body {
+    font-family: 'Gilory Medium'; 
+    color: black;
+}

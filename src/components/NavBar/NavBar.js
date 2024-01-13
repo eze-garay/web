@@ -30,10 +30,10 @@ const NavBar = () => {
   }, [windowDimension]);
 
   const links = [
-    { id: 1, link: "Home" },
-    { id: 2, link: "Products" },
-    { id: 3, link: "Blog" },
-    { id: 4, link: "Contact" },
+    { id: 1, link: "HOME" },
+    { id: 2, link: "PRODUCTOS" },
+    { id: 3, link: "BLOG" },
+    { id: 4, link: "CONTACTO" },
   ];
 
   return (
