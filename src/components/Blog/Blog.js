@@ -1,6 +1,6 @@
 import React from 'react';
 import './Blog.css';
-import banner from './assest/banner.jpg';
+import Banner from '../Banner/banner';
 import Cards from '../sliders/cards';
 import Cards2 from '../sliders/cards2';
 import Cards3 from '../sliders/cards3';
@@ -14,20 +14,10 @@ import { Link } from 'react-scroll';
 const Blog = () => {
   return (
     <div className='conteiner'>
-      <header className='conteinerBanner'>
-        <div className='Banner'>
-          <div className='BannerTex'>
-            <h1 className='BannerTexTitle'>Jackery</h1>
-            <h2 className='BannerTexSubTitle'>GENERADORES SOLARES</h2>
-            <p className='BannerTexBody'>
-              Una solución que utiliza energía verde y renovable para exploración al aire libre y respaldo de emergencia
-            </p>
-          </div>
-          <div className='BannerImg'>
-            <img src={banner} alt='Banner' className='img' />
-          </div>
-        </div>
-      </header>
+      <div className='bannerConteiner'>
+      <Banner/>
+      </div>
+      
 
       <div className="menuSlider">
           <Link
