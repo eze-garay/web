@@ -15,6 +15,9 @@ const Banner = () => {
                 <p className='BannerTexBody'>
                 Una solución que utiliza energía verde y renovable para exploración al aire libre y respaldo de emergencia
                 </p>
+                <a href="https://tu-pagina.com" className="buttonBanner mb-3" target="_blank" rel="noopener noreferrer">
+        EXPLORAR MÁS
+          </a>
             </div>
         </div>
         <div className="stripe-1"></div>

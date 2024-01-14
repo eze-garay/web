@@ -88,6 +88,20 @@
     color: white;
     font-size: 10px;
   }
+
+  .buttonBanner {
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta el padding según tus necesidades */
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #ff5000; /* Color de fondo del botón */
+    border-radius: 20px; /* Bordes redondos */
+    cursor: pointer;
+    border : 1px solid white
+    
+  }
+
   
   @media (max-width: 850px) {
     .half-width {
@@ -125,4 +139,12 @@
       .BannerTexBody {
         font-size: 8px;
       }
+}  
+
+@media (max-width: 1000px) {
+
+  .div3 {
+      display: none;
+      }
+ 
 }  
