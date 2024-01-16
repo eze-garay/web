@@ -35,23 +35,26 @@
     height: 100vh;
 }
 
-.conteinerBody2{
-    flex: 1; 
-    flex-direction: column;
+.conteinerBody2 {
+    display: flex;
+    flex-direction: row;
     background-color: gainsboro;
-    width: 100%vh;
+    width: 100%;
     height: 100vh;
 }
-.conteinerBody21{
+
+.conteinerBody21 {
     background-color: aqua;
-    width: 100%vh;
-    height: 100vh;
+    width: 50%;
+    height: 50vh; /* Ajusta la altura según tus necesidades */
 }
-.conteinerBody22{
+
+.conteinerBody22 {
     background-color: blue;
-    width: 100%vh;
-    height: 100vh;
+    width: 100%;
+    height: 50vh; /* Ajusta la altura según tus necesidades */
 }
+
 
 
 
