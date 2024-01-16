@@ -1,6 +1,18 @@
+
+.conteiner {
+    display: flex;
+    flex-direction: column; 
+  }
+
+
+
 /*Header*/
-.conteinerHeader{
+.conteinerHeader {
+     
     background-color: #ff5000;
+    width: 100%vh;
+    height: 100vh;
+    
 }
 
 
@@ -11,7 +23,45 @@
 /*Body*/
 
 .conteinerBody{
-    background-color: black;
+    flex: 3; 
+    background-color: crimson;
+    width: 100%vh;
+    height: 100vh;
+}
+.conteinerBody1{
+    flex: 1; 
+    background-color: white;
+    width: 100%vh;
+    height: 100vh;
+}
+
+.conteinerBody2{
+    flex: 1; 
+    flex-direction: column;
+    background-color: gainsboro;
+    width: 100%vh;
+    height: 100vh;
+}
+.conteinerBody21{
+    background-color: aqua;
+    width: 100%vh;
+    height: 100vh;
+}
+.conteinerBody22{
+    background-color: blue;
+    width: 100%vh;
+    height: 100vh;
+}
+
+
+
+
+
+.conteinerBody3{
+    flex: 1; 
+    background-color: green;
+    width: 100%vh;
+    height: 100vh;
 }
 
 

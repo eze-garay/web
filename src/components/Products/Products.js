@@ -5,14 +5,29 @@ import { TiSocialTwitter } from 'react-icons/ti';
 import { SlSocialInstagram } from 'react-icons/sl';
 import { Link } from 'react-scroll';
 
-const Products = () => {
+const PRODUCTOS = () => {
   return (
   
     <div className='conteiner'>
       <header className='conteinerHeader'>
 
       </header>
-      <div className='conteinerBody'> 
+
+
+
+      <div className='conteinerBody'>
+        <div className='conteinerBody1'>
+        </div> 
+        <div className='conteinerBody2'>
+          <div className='conteinerBody21'>
+
+          </div>
+          <div className='conteinerBody22'>
+
+          </div>
+        </div> 
+        <div className='conteinerBody3'>
+        </div> 
 
       </div>
 
@@ -50,4 +65,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default PRODUCTOS;
