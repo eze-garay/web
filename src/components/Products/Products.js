@@ -1,42 +1,72 @@
 
 import './Products.css'
-import Carousel1 from './carousel/carousel';
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 import React from 'react';
+import CardProduct from '../Card/CardProduct';
 
 const PRODUCTOS = () => {
 
 
   return (
   
-    <div className='conteiner'>
-      <header className='conteinerHeader'>
-        <div className='conteiner'>
-        <Carousel1/>
-        </div>
-        <div className='conteiner SliderProducts'>
-        <h1 className='TexTitle'>NUESTROS PRODUCTOS</h1>
+ <div className='conteiner'>
+  <div className='conteinerProducts1'>
+    <div className='conteinerProducts1Imagen'>
+      <CardProduct/>
+    </div>
+    <div className='conteinerProducts1ImagenText'>
+      <h1 className='textProducts'>GENERADOR SOLAR</h1>
+      <h2 className='numberProducts'> $1000000,00</h2>
+      <p className='BodyProducts'>Energía verde y renovable para exploración al aire libre y respaldo de emergencia.</p>
+      <p className='BodyProducts'>Energía verde y renovable para exploración al aire libre y respaldo de emergencia.</p>
+      <p className='BodyProducts'>Energía verde y renovable para exploración al aire libre y respaldo de emergencia.</p>
+      <a href="https://tu-pagina.com" className="myButton mb-3" target="_blank" rel="noopener noreferrer">
+        EXPLORAR MÁS
+      </a>
+    </div>
 
-        </div>
-      </header>
+  </div>
+  <div className='conteinerProducts2'>
+    <div className='ProductDescription'> 
+    <h1 className='textProducts'>GENERADOR SOLAR</h1>
+    <p className='BodyProducts'>El Generador Solar 2000 Plus ofrece una capacidad ampliable de 2kWh a 12kWh. Amplíala a 12kWh agregando una batería y paneles solares. Ideal para vivir sin conexión a la red y para alimentarte durante apagones prolongados. Una carga solar completa tarda 2 horas: la carga con energía solar es totalmente independiente.</p>
+    </div>
+    <div className='ProductVideo'>
+    <div className='ProductVideo'>
+      <iframe
+        width='100%' 
+        height='400px' 
+        src='https://www.youtube.com/embed/TU_ID_DE_VIDEO' /* Reemplaza TU_ID_DE_VIDEO con el ID de tu video */
+        title='Product Video'
+        frameborder='0'
+        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+        allowfullscreen
+      ></iframe>
+    </div>
+    </div>
+    <div className='ProductDescription'> 
+    <p className='BodyProducts'>El Generador Solar 2000 Plus ofrece una capacidad ampliable de 2kWh a 12kWh. Amplíala a 12kWh agregando una batería y paneles solares. Ideal para vivir sin conexión a la red y para alimentarte durante apagones prolongados. Una carga solar completa tarda 2 horas: la carga con energía solar es totalmente independiente.</p>
+    </div>
 
-      <div className='conteinerBody'>
-        <div className='conteinerBody1'>
-        </div> 
-        <div className='conteinerBody2'>
-          <div className='conteinerBody21'>
+  </div>
+  <div className='conteinerProducts3'>
 
-          </div>
-          <div className='conteinerBody22'>
+  </div>
+  <div className='conteinerProducts4'>
 
-          </div>
-        </div> 
-        <div className='conteinerBody3'>
-        </div> 
-      </div>
+  </div>
+  <div className='conteinerProducts5'>
 
-      <footer className='conteinerFooter'>
+  </div>
+  <div className='conteinerProducts6'>
+
+  </div>
+  <div className='conteinerProducts7'>
+
+  </div>
+
+  <footer className='conteinerFooter'>
         <p className='footerSocialTitle'>Jackery</p>
         <section className='footerSocial'>
           <div className='footerLinks'>
@@ -63,8 +93,11 @@ const PRODUCTOS = () => {
           </div>
         </section>
         <p className='footerTex2'>@2024 Jackery Inc. All rights reserved</p>
-      </footer>
-    </div>
+  </footer>
+
+ </div>
+
+
 
 
   );

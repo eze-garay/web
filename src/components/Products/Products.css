@@ -6,79 +6,73 @@
 }
 
 
-/*Header*/
-.conteinerHeader {
-    display: flex;
-    flex-direction: column;
-    background-color: #ff5000;
-    width: 100%;
-    height: 100%;
-    
-}
-
-.SliderProducts{
-    background-color: #ff5000;
-    
-    
-      
-}
-
-.TexTitle {
-font-family: Gilory Bold;
-color: white;
-font-size: 40px;
-margin: 30PX;
-
-}
-
-
 
 /*Body*/
 
-.conteinerBody{
-    flex: 3; 
-    background-color: crimson;
-    width: 100%vh;
-    height: 100vh;
-}
-.conteinerBody1{
-    flex: 1; 
-    background-color: white;
-    width: 100%vh;
-    height: 100vh;
-}
-
-.conteinerBody2 {
+.conteinerProducts1 {
     display: flex;
     flex-direction: row;
-    background-color: gainsboro;
     width: 100%;
-    height: 100vh;
+    height: 100%vh;
 }
 
-.conteinerBody21 {
-    background-color: aqua;
+.conteinerProducts1Imagen {
     width: 50%;
-    height: 50vh; 
+    height: 100vh; 
 }
 
-.conteinerBody22 {
-    background-color: blue;
-    width: 100%;
-    height: 50vh; 
+.conteinerProducts1ImagenText {
+    
+    width: 50%;
+    height: 100%vh; 
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
 }
 
-.conteinerBody3{
-    flex: 1; 
-    background-color: green;
-    width: 100%vh;
-    height: 100vh;
+/*Body text*/
+.textProducts{
+    font-family: Gilory Bold;
+    color: black;
+    font-size: 40px;
+   
 }
+.numberProducts{
+    font-family: Gilory Bold;
+    margin: 20px;
+    color: #ff5000;
+    font-size: 40px;
+}
+.BodyProducts{
+    text-align: start;
+    margin: 20px;
+    font-family: Gilory Medium;
+    color: gray;
+    font-size: 20px;
+}
+.myButton {
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta el padding según tus necesidades */
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #ff5000; /* Color de fondo del botón */
+    border-radius: 20px; /* Bordes redondos */
+    cursor: pointer;
+    
+}
+/*Body Description*/
+.ProductDescription{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
 
-
-
-
-
+}
+.ProductVideo{
+    margin: 20px;
+}
 
 
 /*Footer*/
@@ -142,9 +136,50 @@ margin: 30PX;
 
 
 @media (max-width: 800px) {
-    /*Headers*/
-    .TexTitle{
+    /*Body*/
+    .conteinerProducts1 {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .conteinerProducts1Imagen {
+        width: auto;
+        height: auto; 
+    }
+    
+    .conteinerProducts1ImagenText {
+        width: auto;
+        height: auto;
+    
+    }
+    .textProducts{
+        font-family: Gilory Bold;
+        color: black;
         font-size: 20px;
+       
+    }
+    .numberProducts{
+        font-family: Gilory Bold;
+        margin: 20px;
+        color: #ff5000;
+        font-size: 10px;
+    }
+    .BodyProducts{
+        text-align: center;
+        margin: 20px;
+        font-family: Gilory Medium;
+        color: gray;
+        font-size: 10px;
+    }
+    .myButton {
+        display: inline-block;
+        padding: 4px 8px; /* Ajusta el padding según tus necesidades */
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        background-color: #ff5000; /* Color de fondo del botón */
+        border-radius: 10px; /* Bordes redondos */
+        cursor: pointer;
     }
     /*Slioder*/
 
