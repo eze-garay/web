@@ -1,19 +1,25 @@
-import React from 'react'
+
 import './Products.css'
-import { TiSocialFacebook } from 'react-icons/ti';
-import { TiSocialTwitter } from 'react-icons/ti';
-import { SlSocialInstagram } from 'react-icons/sl';
+import Carousel1 from './carousel/carousel';
+import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import { Link } from 'react-scroll';
+import React from 'react';
 
 const PRODUCTOS = () => {
+
+
   return (
   
     <div className='conteiner'>
       <header className='conteinerHeader'>
+        <div className='conteiner'>
+        <Carousel1/>
+        </div>
+        <div className='conteiner SliderProducts'>
+        <h1 className='TexTitle'>NUESTROS PRODUCTOS</h1>
 
+        </div>
       </header>
-
-
 
       <div className='conteinerBody'>
         <div className='conteinerBody1'>
@@ -28,7 +34,6 @@ const PRODUCTOS = () => {
         </div> 
         <div className='conteinerBody3'>
         </div> 
-
       </div>
 
       <footer className='conteinerFooter'>
@@ -36,13 +41,13 @@ const PRODUCTOS = () => {
         <section className='footerSocial'>
           <div className='footerLinks'>
             <Link to='' className='Links'>
-              <TiSocialFacebook />
+              <FaFacebook />
             </Link>
             <Link to='' className='Links'>
-              <TiSocialTwitter />
+              <FaTwitter />
             </Link>
             <Link to='' className='Links'>
-              <SlSocialInstagram />
+              <FaInstagram />
             </Link>
           </div>
         </section>

@@ -6,9 +6,7 @@ import Cards2 from '../sliders/cards2';
 import Cards3 from '../sliders/cards3';
 import Cards4 from '../sliders/cards4';
 import Cards5 from '../sliders/cards5';
-import { TiSocialFacebook } from 'react-icons/ti';
-import { TiSocialTwitter } from 'react-icons/ti';
-import { SlSocialInstagram } from 'react-icons/sl';
+import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 
 const Blog = () => {
@@ -123,13 +121,13 @@ const Blog = () => {
         <section className='footerSocial'>
           <div className='footerLinks'>
             <Link to='' className='Links'>
-              <TiSocialFacebook />
+              <FaFacebook />
             </Link>
             <Link to='' className='Links'>
-              <TiSocialTwitter />
+              <FaTwitter />
             </Link>
             <Link to='' className='Links'>
-              <SlSocialInstagram />
+              <FaInstagram />
             </Link>
           </div>
         </section>

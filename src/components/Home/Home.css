@@ -1,0 +1,179 @@
+@font-face {
+    font-family: Gilory Medium;
+    src: url(./fonts/Gilroy-Medium.ttf);
+    font-family: Gilory Bold;
+    src: url(./fonts/Gilroy-Bold.ttf);
+}
+
+
+/*Header*/
+.conteinerHeader {
+    display: flex;
+    flex-direction: column;
+    background-color: #ff5000;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.SliderProducts{
+    background-color: #ff5000;
+    
+    
+      
+}
+
+.TexTitle {
+font-family: Gilory Bold;
+color: white;
+font-size: 40px;
+margin: 30PX;
+
+}
+
+
+
+/*Body*/
+
+.conteinerBody{
+    flex: 3; 
+    background-color: crimson;
+    width: 100%vh;
+    height: 100vh;
+}
+.conteinerBody1{
+    flex: 1; 
+    background-color: white;
+    width: 100%vh;
+    height: 100vh;
+}
+
+.conteinerBody2 {
+    display: flex;
+    flex-direction: row;
+    background-color: gainsboro;
+    width: 100%;
+    height: 100vh;
+}
+
+.conteinerBody21 {
+    background-color: aqua;
+    width: 50%;
+    height: 50vh; 
+}
+
+.conteinerBody22 {
+    background-color: blue;
+    width: 100%;
+    height: 50vh; 
+}
+
+.conteinerBody3{
+    flex: 1; 
+    background-color: green;
+    width: 100%vh;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+/*Footer*/
+
+.conteinerFooter {
+    flex: 1; 
+    background-color: black; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+.footerSocial {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+.footerSocialTitle {
+    font-family: Gilory Bold;
+    color: #ff5000;
+    font-size: 30px;
+    margin-right: 10px; 
+}
+.footerLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+}
+.Links {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    padding: 20px;
+}
+.footerTex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+
+}
+.footerTex1{
+    color: white;
+    padding: 20px;
+    font-size: 10px;
+    font-family: Gilory Medium;
+    text-decoration: overline ;
+
+}
+.footerTex2{
+    color: white;
+    padding: 20px;
+    font-size: 10px;
+    font-family: Gilory Medium;
+
+}
+
+
+
+@media (max-width: 800px) {
+    /*Headers*/
+    .TexTitle{
+        font-size: 20px;
+    }
+    /*Slioder*/
+
+
+    /*Footer*/
+
+    .footerSocial {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footerSocialTitle {
+        margin-right: 0; 
+    }
+
+    .footerLinks {
+        flex-direction: column;
+    }
+
+    .Links {
+        padding: 10px;
+    }
+
+    .footerTex {
+        flex-direction: column;
+    }
+    
+    .footerTex1,
+    .footerTex2 {
+        padding: 10px;
+    }
+}
