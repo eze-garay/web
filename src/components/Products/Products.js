@@ -4,6 +4,8 @@ import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 import React from 'react';
 import CardProduct from '../Card/CardProduct';
+import Gallery from '../gallery/gallery';
+import imagen from './assests/imagen1.jpg'
 
 const PRODUCTOS = () => {
 
@@ -25,7 +27,6 @@ const PRODUCTOS = () => {
         EXPLORAR MÁS
       </a>
     </div>
-
   </div>
   <div className='conteinerProducts2'>
     <div className='ProductDescription'> 
@@ -51,10 +52,35 @@ const PRODUCTOS = () => {
 
   </div>
   <div className='conteinerProducts3'>
-
+  <div className='ProductDescription'> 
+    <h1 className='textProducts'>GENERADOR SOLAR</h1>
+  </div>
+  <Gallery/>
   </div>
   <div className='conteinerProducts4'>
-
+      <div className='ProductDescription'> 
+        <h1 className='textProducts'>GENERADOR SOLAR</h1>
+      </div>
+    <div className='containerReview'>
+      <div className="card" style={{width: '30rem', margin: '10PX', backgroundColor: 'transparent', border: '0px'}}>
+      <img src={imagen} className="card-img-top cardImgReview " alt="..."/>
+      <div className='card-body'>
+        <div className='cardReview'>
+        <h1 className='titleReview'>seguridad integral con excelente BMS</h1>
+        <p className='textReview'>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      </div>
+      <div className="card" style={{width: '30rem', margin: '10PX', backgroundColor: 'transparent', border: '0px'}}>
+      <img src={imagen} className="card-img-top cardImgReview" alt="..."/>
+      <div className='card-body'>
+        <div className='cardReview'>
+        <h1 className='titleReview'>seguridad integral con excelente BMS</h1>
+        <p className='textReview'>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      </div>
+    </div>
   </div>
   <div className='conteinerProducts5'>
 
