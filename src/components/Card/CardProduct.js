@@ -16,7 +16,7 @@ const CardProduct = () => {
     <div className='CardProduct'>
       <div className='card cardProducts  mb-3 border-0'>
         <img src={selectedImage} className='card-img-top' alt='...' onClick={() => handleImageClick(imagen)}/>
-        <div className='card-body'>
+        <div className='card-body cardProductBody'>
           <div className='card  cardProducts  border-0' style={{ width: '18rem' }} onClick={() => handleImageClick(imagen2)}>
             <img src={imagen2} className='card-img-top' alt='...' />
           </div>

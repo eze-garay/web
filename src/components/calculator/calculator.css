@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Gilory Medium;
+    src: url(./fonts/Gilroy-Medium.ttf);
+    font-family: Gilory Bold;
+    src: url(./fonts/Gilroy-Bold.ttf);
+}
+
+
+
+.calculatorContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .calculatorItem {
+    margin-bottom: 10px; /* Ajusta el espacio entre el ícono y el input */
+    font-size: 60px;
+    color: #ff5000;
+  }
+  
+  .calculatorInput {
+    width: 100px; /* Ajusta el ancho del input según tus necesidades */
+    text-align: center; /* Centra el texto dentro del input */
+    margin-bottom: 10px; /* Ajusta el espacio entre el input y la etiqueta "W" */
+  }
+  
+  .calculatorUnit {
+    display: inline-block;
+    margin-left: 10px; /* Ajusta el espacio entre el input y la etiqueta "W" */
+    margin-bottom: 10px;
+    font-family: Gilory Bold;
+    font-size: 40px;
+  }

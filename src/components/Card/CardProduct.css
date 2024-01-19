@@ -1,4 +1,4 @@
-.card-body{
+.cardProductBody{
     display: flex;
     flex-direction: row;
 }

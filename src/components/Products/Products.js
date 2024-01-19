@@ -6,8 +6,11 @@ import React from 'react';
 import CardProduct from '../Card/CardProduct';
 import Gallery from '../gallery/gallery';
 import imagen from './assests/imagen1.jpg'
+import CardIcons from '../Card/cardIcons';
+import Calculator from '../calculator/calculator';
 
 const PRODUCTOS = () => {
+
 
 
   return (
@@ -83,14 +86,48 @@ const PRODUCTOS = () => {
     </div>
   </div>
   <div className='conteinerProducts5'>
-
+    <CardIcons/>
   </div>
   <div className='conteinerProducts6'>
-
-  </div>
-  <div className='conteinerProducts7'>
-
-  </div>
+        <div className='ProductDescription'>
+          <h1 className='textProducts'>Simulador de Tiempo de Funcionamiento</h1>
+          <p className='textReview'>Para cargar con el Explorer 1500 Pro (capacidad de 1512 Wh)</p>
+          <p className='textReview'>Ingresa el vataje del dispositivo (no supera los 1512 W)</p>
+          <Calculator/>
+        </div>
+        <div className="cardProducFotter">
+            <div className="card cardCalculator" style={{width: '18rem'}}>
+            <img src={imagen} className="card-img-top" alt="..."/>
+            <div className="card-body cardBodyFooter">
+            <h5 className="card-title titleReview">Card title</h5>
+            <p className="card-text textReview">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="https://tu-pagina.com" className="myButton mb-3" target="_blank" rel="noopener noreferrer">
+             EXPLORAR MÁS
+            </a>
+            </div>
+            </div>
+            <div className="card cardCalculator" style={{width: '18rem'}}>
+            <img src={imagen} className="card-img-top" alt="..."/>
+            <div className="card-body cardBodyFooter">
+            <h5 className="card-title titleReview">Card title</h5>
+            <p className="card-text textReview">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="https://tu-pagina.com" className="myButton mb-3" target="_blank" rel="noopener noreferrer">
+            EXPLORAR MÁS
+            </a>
+            </div>
+            </div>
+            <div className="card cardCalculator" style={{width: '18rem'}}>
+            <img src={imagen} className="card-img-top" alt="..."/>
+            <div className="card-body cardBodyFooter">
+            <h5 className="card-title titleReview">Card title</h5>
+            <p className="card-text textReview">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="https://tu-pagina.com" className="myButton mb-3" target="_blank" rel="noopener noreferrer">
+             EXPLORAR MÁS
+            </a>
+            </div>
+            </div>
+        </div>
+      </div>
 
   <footer className='conteinerFooter'>
         <p className='footerSocialTitle'>Jackery</p>

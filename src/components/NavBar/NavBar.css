@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 0 auto; /* Esto centrará el contenedor de enlaces en el medio de la página */
+    margin: 0 auto; 
   }
 .navOpen {
     display: flex;
