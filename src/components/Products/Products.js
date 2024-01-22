@@ -34,7 +34,11 @@ const PRODUCTOS = () => {
   <div className='conteinerProducts2'>
     <div className='ProductDescription'> 
     <h1 className='textProducts'>GENERADOR SOLAR</h1>
-    <p className='BodyProducts'>El Generador Solar 2000 Plus ofrece una capacidad ampliable de 2kWh a 12kWh. Amplíala a 12kWh agregando una batería y paneles solares. Ideal para vivir sin conexión a la red y para alimentarte durante apagones prolongados. Una carga solar completa tarda 2 horas: la carga con energía solar es totalmente independiente.</p>
+    <div className='borderContainer'>
+            <p className='BodyProducts'>
+              El Generador Solar 2000 Plus ofrece una capacidad ampliable de 2kWh a 12kWh. Amplíala a 12kWh agregando una batería y paneles solares. Ideal para vivir sin conexión a la red y para alimentarte durante apagones prolongados. Una carga solar completa tarda 2 horas: la carga con energía solar es totalmente independiente.
+            </p>
+    </div>
     </div>
     <div className='ProductVideo'>
     <div className='ProductVideo'>

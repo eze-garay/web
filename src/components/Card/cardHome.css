@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Gilory Medium';
+    src: url('./fonts/Gilroy-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Gilory Bold';
+    src: url('./fonts/Gilroy-Bold.ttf');
+}
+
+.containerCards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardHome {
+    margin: 20px;
+    border: none;
+}
+
+.cardTextHome {
+    text-align: center;
+    font-family: 'Gilory Medium';
+    color: black;
+}
+
+.cardBodyHome {
+    
+    background-color: #ff5000;
+}
+
+@media (max-width: 500px) {
+    
+    .cardHome {
+        margin: 5px;
+        border: none;
+    }
+}

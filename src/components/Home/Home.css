@@ -6,11 +6,15 @@
 }
 
 
+.conteiner{
+}
+
 /*Header*/
 .conteinerHeader {
     display: flex;
     flex-direction: column;
     background-color: #ff5000;
+    margin-top: 6rem;
     width: 100%;
     height: 100%;
     
@@ -34,16 +38,18 @@ margin: 30PX;
 
 
 /*Body*/
+.homeTextTitle {
+    font-family: Gilory Bold;
+    color: black;
+    font-size: 40px; 
+}
+.homeText{
+    font-family: Gilory Medium;
+    color: gray;
+}
 
 .conteinerBody{
     flex: 3; 
-    background-color: crimson;
-    width: 100%vh;
-    height: 100vh;
-}
-.conteinerBody1{
-    flex: 1; 
-    background-color: white;
     width: 100%vh;
     height: 100vh;
 }
@@ -51,21 +57,24 @@ margin: 30PX;
 .conteinerBody2 {
     display: flex;
     flex-direction: row;
-    background-color: gainsboro;
     width: 100%;
     height: 100vh;
 }
 
 .conteinerBody21 {
-    background-color: aqua;
+    
     width: 50%;
     height: 50vh; 
 }
 
 .conteinerBody22 {
-    background-color: blue;
-    width: 100%;
+    width: 70%;
     height: 50vh; 
+}
+.imagenHome{
+    display: flex;
+    width: 100%;
+    height: 100%;
 }
 
 .conteinerBody3{
@@ -73,6 +82,25 @@ margin: 30PX;
     background-color: green;
     width: 100%vh;
     height: 100vh;
+}
+.conteinerBodyText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: flex-start;
+    margin: 30px;
+}
+
+.myButtonHome {
+    display: inline-block;
+    padding: 4px 8px; /* Ajusta el padding según tus necesidades */
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #ff5000; /* Color de fondo del botón */
+    border-radius: 20px; /* Bordes redondos */
+    cursor: pointer;
+    margin-left: 40px;
 }
 
 
@@ -147,6 +175,28 @@ margin: 30PX;
         font-size: 20px;
     }
     /*Slioder*/
+    .imagenHome{
+        display: flex;
+        height: 100%;
+    }
+    .conteinerBody2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .conteinerBody21 {
+        width: 100%;
+        height: 50vh; 
+    }
+    
+    .conteinerBody22 {
+        width: 100%;
+        height: 50vh; 
+    }
+    
+    
+
+    
+
 
 
     /*Footer*/
