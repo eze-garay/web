@@ -5,6 +5,7 @@ import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 import React from 'react';
 import CardHome from '../Card/cardHome.js'
+import Cardhome2 from '../Card/cardHome2.js';
 import imagen from './assests/imagen1.jpg'
 
 const HOME = () => {
@@ -14,7 +15,7 @@ const HOME = () => {
   
     <div className='conteiner'>
       <header className='conteinerHeader'>
-        <div className='conteiner'>
+        <div className='conteinerhome'>
         <Carousel1/>
         </div>
         <div className='conteiner SliderProducts'>
@@ -39,10 +40,12 @@ const HOME = () => {
           <div className='conteinerBody22'>
             <img className='imagenHome' src={imagen} alt='imagen' />
           </div>
-        </div> 
-        <div className='conteinerBody3'>
-        </div> 
+        </div>
       </div>
+      <div className='conteinerBody4'>
+        <Cardhome2/>
+      </div>
+    
 
       <footer className='conteinerFooter'>
         <p className='footerSocialTitle'>Jackery</p>

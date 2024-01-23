@@ -8,36 +8,33 @@
     src: url('./fonts/Gilroy-Bold.ttf');
 }
 
-.containerCards {
+
+.containerCards2 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-
-.cardHome {
-    margin: 20px;
-    border: none;
+.cardHome2 {
+ margin: 20px;
 }
-
-.cardTextHome {
-    text-align: center;
+.cardText2 {
+    font-size: 10px;
     font-family: 'Gilory Medium';
-    color: black;
+    color: gray;
+}
+.cardTextTitle2 {
+    font-size: 15px;
+    font-family: 'Gilory Bold';
+    color: #ff5000; 
 }
 
-.cardBodyHome {
-    background-color: #ff5000 ;
-    border: none;
-}
 
 @media (max-width: 500px) {
     
-    .cardHome {
-        margin: 0;
+    .cardTextTitle2 {
+        font-size: 10px;
+        font-family: 'Gilory Bold';
+        color: #ff5000; 
     }
-    .containerCards {
-        width: 50%;
-    }
-   
 }
