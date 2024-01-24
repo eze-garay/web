@@ -7,6 +7,8 @@ import React from 'react';
 import CardHome from '../Card/cardHome.js'
 import Cardhome2 from '../Card/cardHome2.js';
 import imagen from './assests/imagen1.jpg'
+import CarouselHome from './carousel/carousel1.js';
+
 
 const HOME = () => {
 
@@ -18,7 +20,7 @@ const HOME = () => {
         <div className='conteinerhome'>
         <Carousel1/>
         </div>
-        <div className='conteiner SliderProducts'>
+        <div className='SliderProducts'>
         <h1 className='TexTitle'>NUESTROS PRODUCTOS</h1>
         <CardHome/>
         </div>
@@ -41,10 +43,20 @@ const HOME = () => {
             <img className='imagenHome' src={imagen} alt='imagen' />
           </div>
         </div>
-      </div>
-      <div className='conteinerBody4'>
+        <div className='conteinerBody4'>
         <Cardhome2/>
+        </div>
+        <div className='conteinerBody3'>
+          <div className='conteinerBody31'>
+          </div>
+          <div className='conteinerBody32'>
+          <CarouselHome/>
+          </div>
+
+        </div>
       </div>
+  
+  
     
 
       <footer className='conteinerFooter'>
