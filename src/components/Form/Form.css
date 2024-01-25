@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Gilory Medium';
+    src: url(./fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Gilory Bold';
+    src: url(./fonts/Gilroy-Bold.ttf);
+}
+
+
+.Form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px;
+  }
+
+.FormText {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;  
+}
+.FormTextTitle {
+    font-size: 20px;
+    font-family: Gilory Bold;
+    color: black;
+    margin-top:20px ;
+    margin-bottom: 10px;
+}
+
+.FormImg {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    
+}
+.FormImgTitle {
+    font-size: 20px;
+    font-family: Gilory Medium;
+    color: gray;
+    margin-top:20px ;
+    margin-bottom: 10px;
+}
+
+.FormButton {
+    display: flex;
+    justify-content: center;
+}
+.FormTextButton{
+    font-family: Gilory Medium;
+    color: gray;
+}
+.myButton {
+    display: inline-block;
+    padding: 4px 8px; 
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: #ff5000; 
+    border-radius: 10px; 
+    cursor: pointer;
+    margin: 20px;
+}

@@ -2,6 +2,7 @@ import './Contact.css'
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 import React from 'react';
+import Form from '../Form/Form';
 
 
 
@@ -20,8 +21,8 @@ const CONTACTO = () => {
 
       </header>
       <div className='conteinerContactForm'>
-          <div>
-          
+          <div className='conteinerForm'>
+            <Form/>
           </div>
       </div>
       <footer className='conteinerFooter'>
