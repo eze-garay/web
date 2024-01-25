@@ -56,7 +56,7 @@ import './Form.css'
                 </label>
                 </div>
                 <div className="FormButton">
-                <button className="myButton" type="submit">Enviar</button>
+                <button className="myButtonFooter" type="submit">Enviar</button>
                 </div>
             
                 </form>

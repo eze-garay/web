@@ -70,7 +70,7 @@
     font-family: Gilory Medium;
     color: gray;
 }
-.myButton {
+.myButtonFooter {
     display: inline-block;
     padding: 4px 8px; 
     text-align: center;
@@ -85,7 +85,7 @@
     margin: 40px;
     transition: background-color 0.3s;
 }
-.myButton:hover {
+.myButtonFooter:hover {
     background-color: white;
     color: #ff5000;
     border: 1px solid #ff5000;
