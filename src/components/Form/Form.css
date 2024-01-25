@@ -82,8 +82,16 @@
     background-color: #ff5000; 
     border-radius: 15px; 
     cursor: pointer;
-    margin: 20px;
+    margin: 40px;
+    transition: background-color 0.3s;
 }
+.myButton:hover {
+    background-color: white;
+    color: #ff5000;
+    border: 1px solid #ff5000;
+    width: 20%;
+
+  }
 
 @media (max-width: 500px) {
     .FileButton {
