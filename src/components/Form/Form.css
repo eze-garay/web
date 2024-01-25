@@ -14,13 +14,14 @@
     justify-content: space-between;
     flex-direction: row;
     margin: 10px;
-  }
+}
 
 .FormText {
     width: 100vh;
     height: 100vh;
     display: flex;
-    flex-direction: column;  
+    flex-direction: column; 
+    margin: 2px; 
 }
 .FormTextTitle {
     font-size: 20px;
@@ -34,7 +35,9 @@
     width: 100vh;
     height: 100vh;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
 }
 .FormImgTitle {
@@ -44,6 +47,20 @@
     margin-top:20px ;
     margin-bottom: 10px;
 }
+.FileButton {
+    display: inline-block;
+    padding: 100px; /* Ajusta según tus necesidades */
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 40px;
+  }
+  
+  .FileInput {
+    display: none;
+  }
 
 .FormButton {
     display: flex;
@@ -60,8 +77,36 @@
     text-decoration: none;
     border: none;
     color: white;
+    font-size: 20px;
+    width: 20%;
     background-color: #ff5000; 
-    border-radius: 10px; 
+    border-radius: 15px; 
     cursor: pointer;
     margin: 20px;
+}
+
+@media (max-width: 500px) {
+    .FileButton {
+        padding: 20px; 
+        font-size: 20px;
+    }
+    .FormImgTitle {
+        font-size: 10px;
+        margin-top:1 0px ;
+        margin-bottom: 5px;
+    }
+    .FormTextTitle {
+        font-size: 10px;
+        margin-top:40px ;
+        margin-bottom: 5px;
+    }
+    .FormImg {
+        width: 50vh;
+        height: 50vh;
+        align-items: center;
+        
+    }
+    .FormTextButton{
+        font-size: 10px;
+    }
 }
