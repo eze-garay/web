@@ -2,72 +2,111 @@
  @font-face {
     font-family: Gilory Medium;
     src: url(./fonts/Gilroy-Medium.ttf);
- }
-.navBar {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    background-color: FFFFFF;
-    margin: 20px;
 }
-.linksConteiner {
-    width: 80%;
+
+
+ .navBar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+  .logoContainer, .linksContainer, .iconsContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  .linksConteiner {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin: 0 auto; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
-.navOpen {
-    display: flex;
-    flex-direction: column-reverse;
-    position: absolute;
-    align-items: center;
-    width: 100%;
-    height: 15%;
-    background-color: white;
-    opacity: 90%;
-}
-
-.links {
+  
+  .links {
     text-decoration: none;
     color: black;
+    font-size: 0.6rem;
+    margin: 0 15px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .iconsContainer {
     display: flex;
-    font-size: 1rem;
-    font-weight: 200;
-    padding-top: 10px;
-    margin: 5px;
-    font-family: Gilory Medium;
+    padding-left: 20%;
+    
+  }
+  .logoContainer{
+    display: flex;
+    padding-right: 20%;
+  }
+  
+  .icon {
+    margin-left: 10px; /* Ajusta el espacio entre los iconos */
+    width: 20px; /* Ajusta el tamaño de los iconos según sea necesario */
+    height: 20px;
+  }
+  
+  .navOpen {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navOpen .logoContainer {
+    margin-bottom: 20px; 
+  }
+  
+  .navOpen .linksContainer {
+    width: 100%;
+    margin: 20px 0; 
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .navOpen .linksConteiner {
+    flex-direction: column;
+    justify-content: center; 
+  }
+  
+  .navOpen .iconsContainer {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  @media (max-width: 800px) {
+    .iconsContainer {
+        margin: 0;
+        padding: 0;
+        padding-left: 200px; /* Ajusta el margen derecho en la versión móvil */
+      }
+      .navOpen .iconsContainer {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        justify-content: center;
+    }
+  
   }
 
-.links:hover {
-    cursor: pointer;
-}
-
-.logo {
-    width: 200px;
-}
-
-
-
-@media ( min-width : 800px) {
-    .navBar{
+  @media (max-width: 400px) {
+    .iconsContainer {
+        margin: 0;
+        padding: 0;
+        padding-left: 100px; /* Ajusta el margen derecho en la versión móvil */
+    }
+    .navOpen .iconsContainer {
+        flex-direction: column;
         align-items: center;
-        align-content: center;
-        justify-content: space-between;
-
+        padding-left: 0;
+        justify-content: center;
     }
-    .linksConteiner {
-        width: 80%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    
-    }
-    .links {
-        display: flex;
-        font-size: 1rem;
-        font-weight: 200;
-    
-    }
-}
-
+  }
+  
