@@ -22,6 +22,7 @@
     display: flex;
     flex-direction: column; 
     margin: 2px; 
+  
 }
 .FormTextTitle {
     font-size: 20px;
@@ -29,6 +30,11 @@
     color: black;
     margin-top:20px ;
     margin-bottom: 10px;
+}
+
+.boxPoliticas {
+    padding-top: 20px;
+    text-align: start;
 }
 
 .FormImg {
@@ -42,7 +48,7 @@
 }
 .FormImgTitle {
     font-size: 20px;
-    font-family: Gilory Medium;
+    font-family: 'Poppins', sans-serif;
     color: gray;
     margin-top:20px ;
     margin-bottom: 10px;
@@ -67,7 +73,7 @@
     justify-content: center;
 }
 .FormTextButton{
-    font-family: Gilory Medium;
+    font-family: 'Poppins', sans-serif;
     color: gray;
 }
 .myButtonFooter {
@@ -79,7 +85,7 @@
     color: white;
     font-size: 20px;
     width: 20%;
-    background-color: #ff5000; 
+    background-color: #fd5000; 
     border-radius: 15px; 
     cursor: pointer;
     margin: 40px;
@@ -87,16 +93,27 @@
 }
 .myButtonFooter:hover {
     background-color: white;
-    color: #ff5000;
-    border: 1px solid #ff5000;
+    color: #fd5000;
+    border: 1px solid #fd5000;
     width: 20%;
 
-  }
+ }
+ .FormTextCont {
+    resize: none; 
+}
 
-@media (max-width: 500px) {
-    .FileButton {
-        padding: 20px; 
-        font-size: 20px;
+@media (max-width: 800px) {
+    .Form {
+        flex-direction: column; /* Cambia la dirección de los elementos a columna */
+    }
+    .FormText {
+        width: auto;
+        height: auto;
+       
+      
+    }
+    .FileButton { 
+        font-size: 50px;
     }
     .FormImgTitle {
         font-size: 10px;
@@ -105,16 +122,16 @@
     }
     .FormTextTitle {
         font-size: 10px;
-        margin-top:40px ;
-        margin-bottom: 5px;
+        margin-top:45px ;
     }
     .FormImg {
-        width: 50vh;
-        height: 50vh;
+        width: 100%;
+        height: 100%;
         align-items: center;
         
     }
-    .FormTextButton{
+    .FormTextButton {
         font-size: 10px;
     }
+
 }

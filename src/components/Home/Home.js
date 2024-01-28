@@ -15,7 +15,7 @@ const HOME = () => {
 
   return (
   
-    <div className='conteiner'>
+    <div className='conteiner conteinerHome'>
       <header className='conteinerHeader'>
         <div className='conteinerhome'>
         <Carousel1/>

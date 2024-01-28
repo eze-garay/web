@@ -5,31 +5,31 @@ import imagen from './assests/imagen1.jpg';
 
 const CardHome = () => {
   return (
-    <div className='containerHomeCard'>
+    <div className='containerHomeCard' >
       <div id="carouselExample" className="carousel slide">
-        <div className="carousel-inner border-0">
+        <div className="carousel-inner border-0" >
           <div className="carousel-item active border-0">
             <div className=" w-100 containerCards border-0">
-              <div className="card cardHome border-0" >
-                <img src={imagen} className="card-img-top" alt="..." />
+              <div className= 'card cardHome border-0' >
+                <img src={imagen} className="card-img-top img-fluid cardImgHome" alt="..." />
                 <div className="card-body cardBodyHome">
                   <p className="card-text cardTextHome">100W</p>
                 </div>
               </div>
-              <div className="card cardHome border-0" >
-                <img src={imagen} className="card-img-top" alt="..." />
+              <div className= 'card cardHome border-0' >
+                <img src={imagen} className="card-img-top img-fluid cardImgHome" alt="..." />
                 <div className="card-body cardBodyHome">
                   <p className="card-text cardTextHome">100W</p>
                 </div>
               </div>
-              <div className="card cardHome border-0" >
-                <img src={imagen} className="card-img-top" alt="..." />
+              <div className= 'card cardHome border-0'>
+                <img src={imagen} className="card-img-top img-fluid cardImgHome" alt="..." />
                 <div className="card-body cardBodyHome">
                   <p className="card-text cardTextHome">100W</p>
                 </div>
               </div>
-              <div className="card cardHome border-0" >
-                <img src={imagen} className="card-img-top" alt="..." />
+              <div className= 'card cardHome border-0' >
+                <img src={imagen} className="card-img-top img-fluid cardImgHome" alt="..." />
                 <div className="card-body cardBodyHome">
                   <p className="card-text cardTextHome">100W</p>
                 </div>
@@ -38,30 +38,29 @@ const CardHome = () => {
           </div>
           <div className="carousel-item active border-0 ">
           <div className=" w-100 containerCards">
-              <div className="card cardHome border-0" >
-                <img src={imagen} className="card-img-top" alt="..." />
+          <div className= 'card cardHome border-0'>
+                <img src={imagen} className="card-img-top img-fluid cardImgHome" alt="..." />
                 <div className="card-body cardBodyHome">
                   <p className="card-text cardTextHome">100W</p>
                 </div>
               </div>
-              <div className="card cardHome border-0" >
-                <img src={imagen} className="card-img-top" alt="..." />
+              <div className= 'card cardHome border-0' >
+                <img src={imagen} className="card-img-top img-fluid cardImgHome" alt="..." />
                 <div className="card-body cardBodyHome">
                   <p className="card-text cardTextHome">100W</p>
                 </div>
               </div>
-              <div className="card cardHome border-0" >
-                <img src={imagen} className="card-img-top" alt="..." />
+              <div className= 'card cardHome border-0' >
+                <img src={imagen} className="card-img-top img-fluid cardImgHome" alt="..." />
                 <div className="card-body cardBodyHome">
                   <p className="card-text cardTextHome">100W</p>
                 </div>
               </div>
-              <div className="card cardHome border-0" >
-                <img src={imagen} className="card-img-top" alt="..." />
+              <div className= 'card cardHome border-0'>
+                <img src={imagen} className="card-img-top img-fluid cardImgHome " alt="..." />
                 <div className="card-body cardBodyHome">
-                  <p className="card-text cardTextHome ">100W</p>
+                  <p className="card-text cardTextHome">100W</p>
                 </div>
-              </div>
             </div>
           </div>
         </div>
@@ -74,6 +73,7 @@ const CardHome = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+    </div>
     </div>
   );
 };

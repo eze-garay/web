@@ -14,20 +14,20 @@ const CardProduct = () => {
 
   return (
     <div className='CardProduct'>
-      <div className='card cardProducts  mb-3 border-0'>
-        <img src={selectedImage} className='card-img-top' alt='...' onClick={() => handleImageClick(imagen)}/>
+      <div className='card cardProducts mb-3 border-0'>
+        <img src={selectedImage} className='card-img-top cardSliderProduct' alt='...' onClick={() => handleImageClick(imagen)} />
         <div className='card-body cardProductBody'>
-          <div className='card  cardProducts  border-0' style={{ width: '18rem' }} onClick={() => handleImageClick(imagen2)}>
-            <img src={imagen2} className='card-img-top' alt='...' />
+          <div className='card cardProducts border-0' onClick={() => handleImageClick(imagen2)}>
+            <img src={imagen2} className='card-img-top' alt='...' style={{ maxWidth: 'auto', height: 'auto' }} />
           </div>
-          <div className='card cardProducts  border-0' style={{ width: '18rem' }} onClick={() => handleImageClick(imagen3)}>
-            <img src={imagen3} className='card-img-top' alt='...' />
+          <div className='card cardProducts border-0' onClick={() => handleImageClick(imagen3)}>
+            <img src={imagen3} className='card-img-top' alt='...' style={{ maxWidth: 'auto', height: 'auto' }} />
           </div>
-          <div className='card cardProducts  border-0' style={{ width: '18rem' }} onClick={() => handleImageClick(imagen2)}>
-            <img src={imagen2} className='card-img-top' alt='...' />
+          <div className='card cardProducts border-0' onClick={() => handleImageClick(imagen2)}>
+            <img src={imagen2} className='card-img-top' alt='...' style={{ maxWidth: 'auto', height: 'auto' }} />
           </div>
-          <div className='card cardProducts  border-0' style={{ width: '18rem' }} onClick={() => handleImageClick(imagen3)}>
-            <img src={imagen} className='card-img-top' alt='...' />
+          <div className='card cardProducts border-0' onClick={() => handleImageClick(imagen3)}>
+            <img src={imagen3} className='card-img-top' alt='...' style={{ maxWidth: 'auto', height: 'auto' }} />
           </div>
         </div>
       </div>

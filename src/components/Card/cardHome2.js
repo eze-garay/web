@@ -13,21 +13,21 @@ const cardhome2 = () => {
           <div className="carousel-item active">
                   <div className='containerCards2'>
                           <div className="card border-0 cardHome2" >
-                      <img src={imagen2} className="card-img-top" alt="..."/>
+                      <img src={imagen2} className="card-img-top cardImgHome2 img-fluid" alt="..."/>
                       <div className="card-body">
                           <p className="card-text cardText2">Combo</p>
                           <p className="card-text cardTextTitle2">Combo 1</p>
                       </div>
                       </div>
                       <div className="card border-0 cardHome2" >
-                      <img src={imagen2} className="card-img-top" alt="..."/>
+                      <img src={imagen2} className="card-img-top cardImgHome2 img-fluid" alt="..."/>
                       <div className="card-body">
                           <p className="card-text cardText2">Combo</p>
                           <p className="card-text cardTextTitle2">Combo 2</p>
                       </div>
                       </div>
                       <div className="card border-0 cardHome2" >
-                      <img src={imagen2} className="card-img-top" alt="..."/>
+                      <img src={imagen2} className="card-img-top cardImgHome2 img-fluid" alt="..."/>
                       <div className="card-body">
                           <p className="card-text cardText2">Combo</p>
                           <p className="card-text cardTextTitle2">Combo 3</p>
@@ -38,21 +38,21 @@ const cardhome2 = () => {
           <div className="carousel-item ">
                   <div className='containerCards2'>
                               <div className="card border-0 cardHome2" >
-                          <img src={imagen3} className="card-img-top" alt="..."/>
+                          <img src={imagen3} className="card-img-top cardImgHome2 img-fluid" alt="..."/>
                           <div className="card-body">
                               <p className="card-text cardText2 ">Combo</p>
                               <p className="card-text cardTextTitle2">Combo 4</p>
                           </div>
                           </div>
                           <div className="card border-0 cardHome2" >
-                          <img src={imagen3} className="card-img-top" alt="..."/>
+                          <img src={imagen3} className="card-img-top cardImgHome2 img-fluid" alt="..."/>
                           <div className="card-body">
                               <p className="card-text cardText2">Combo</p>
                               <p className="card-text cardTextTitle2">Combo 5</p>
                           </div>
                           </div>
                           <div className="card border-0 cardHome2" >
-                          <img src={imagen3} className="card-img-top" alt="..."/>
+                          <img src={imagen3} className="card-img-top cardImgHome2 img-fluid" alt="..."/>
                           <div className="card-body">
                               <p className="card-text cardText2">Combo</p>
                               <p className="card-text cardTextTitle2">Combo 6</p>

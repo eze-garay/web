@@ -16,6 +16,8 @@
     flex-direction: row;
     width: 100%;
     height: 100%vh;
+   
+    
 }
 .conteinerProducts2 {
 
@@ -27,23 +29,29 @@
   
 
 .conteinerProducts1Imagen {
-    width: 50%;
-    height: 100vh; 
+    display: flex;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
 
 .conteinerProducts1ImagenText {
-    
-    width: 50%;
-    height: 100%vh; 
+    width: 30%;
+    height: 100%; 
     flex-direction: column;
     text-align: center;
     align-items: center;
+    padding-left: 10%;
     
 }
 
 /*Body text*/
 .textProducts{
-    font-family: Gilory Bold;
+    font-family: 'Poppins', sans-serif;
     color: black;
     font-size: 40px;
    
@@ -57,7 +65,9 @@
 .BodyProducts{
     text-align: start;
     margin: 20px;
-    font-family: Gilory Medium;
+    
+    font-family: 'Poppins', sans-serif;
+
     color: gray;
     font-size: 20px;
 }
@@ -96,20 +106,32 @@
     width: 100%;
     height: 100%vh;
 }
-.cardImgReview{
-    border-radius: 10px;
 
-}
 .textReview{
    text-align: center;
-    font-family: Gilory Medium;
+   font-family: 'Poppins', sans-serif;
     color: gray;
     font-size: 20px;
+    background-color: transparent; 
    
 }
+.cardReview {
+    padding: 20px; 
+    background-color: transparent;  
+}
+.cardImgReview {
+
+    border-radius: 30px; 
+    overflow: hidden; 
+}
+.card2{
+    padding: 5px; 
+    background-color: transparent;
+}
 .titleReview{
+    background-color: transparent; 
    
-    font-family: Gilory Bold;
+    font-family: 'Poppins', sans-serif;
     color: black;
     font-size: 20px;
     text-align: center;
@@ -194,6 +216,27 @@
 
 }
 
+@media (max-width: 1000px) {
+    /*Body*/
+    .conteinerProducts1 {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .conteinerProducts1Imagen {
+        width: auto;
+        height: auto; 
+        
+    }
+    
+    .conteinerProducts1ImagenText {
+        width: auto;
+        height: auto;
+        padding-left: 10%;
+    
+    }
+
+}
 
 
 @media (max-width: 800px) {
@@ -205,12 +248,14 @@
     }
     .conteinerProducts1Imagen {
         width: auto;
-        height: auto; 
+        height: auto;
+        padding: 0;
     }
     
     .conteinerProducts1ImagenText {
         width: auto;
         height: auto;
+        padding: 0;
     
     }
     .textProducts{
@@ -228,7 +273,7 @@
     .BodyProducts{
         text-align: center;
         margin: 20px;
-        font-family: Gilory Medium;
+        font-family: 'Poppins', sans-serif;
         color: gray;
         font-size: 10px;
     }
@@ -241,6 +286,9 @@
         background-color: #ff5000; /* Color de fondo del botón */
         border-radius: 10px; /* Bordes redondos */
         cursor: pointer;
+    }
+    .textReview{
+     font-size: 10px;
     }
     /*calculator*/
 

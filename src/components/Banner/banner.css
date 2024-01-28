@@ -32,22 +32,22 @@
   
   .stripe-1 {
     flex: 1;
-    background-color: #ffffff;
+    background-color: white;
   }
   
   .stripe-2 {
     flex: 1;
-    background-color: #ffffff;
+    background-color: white;
   }
   
   .stripe-8 {
     flex: 8;
-    color: #ffffff;
+    color: #cccc;
   }
   
   .div1 .stripe-8,
   .div3 .stripe-8 {
-    background-color: #ff5000;
+    background-color: #fd5000;
   }
   
   .half-width {
@@ -68,7 +68,10 @@
   .BannerTex {
     width: 100%;
     height: auto;
-    padding: 20px;
+    padding-left: 20%;
+    padding-right: 5%;
+    text-align: start;
+
   }
   
   .BannerTexTitle {
@@ -80,7 +83,7 @@
   .BannerTexSubTitle {
     font-family: Gilory Medium;
     color: white;
-    font-size: 20px;
+    font-size: 50px;
   }
   
   .BannerTexBody {
@@ -92,13 +95,13 @@
   .buttonBanner {
     display: inline-block;
     padding: 10px 20px; /* Ajusta el padding según tus necesidades */
-    text-align: center;
     text-decoration: none;
     color: white;
-    background-color: #ff5000; /* Color de fondo del botón */
+    background-color: #fd5000; /* Color de fondo del botón */
     border-radius: 20px; /* Bordes redondos */
     cursor: pointer;
-    border : 1px solid white
+    border : 1px solid white;
+    margin-left: 20%;
     
   }
 
@@ -126,6 +129,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-left: 0px;
+      }
+      .buttonBanner {
+
+        margin-left: 0%;
+        
       }
     
       .BannerTexTitle {

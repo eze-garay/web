@@ -27,7 +27,7 @@ const PRODUCTOS = () => {
       <p className='BodyProducts'>Energía verde y renovable para exploración al aire libre y respaldo de emergencia.</p>
       <p className='BodyProducts'>Energía verde y renovable para exploración al aire libre y respaldo de emergencia.</p>
       <a href="https://tu-pagina.com" className="myButton mb-3" target="_blank" rel="noopener noreferrer">
-        EXPLORAR MÁS
+        COMPRAR AHORA
       </a>
     </div>
   </div>
@@ -69,19 +69,23 @@ const PRODUCTOS = () => {
         <h1 className='textProducts'>GENERADOR SOLAR</h1>
       </div>
     <div className='containerReview'>
-      <div className="card" style={{width: '30rem', margin: '10PX', backgroundColor: 'transparent', border: '0px'}}>
-      <img src={imagen} className="card-img-top cardImgReview " alt="..."/>
-      <div className='card-body'>
-        <div className='cardReview'>
+      <div className="cardReview">
+        <div className='cardImgReview'>
+        <img src={imagen} className="card-img-top" alt="..."/>
+        </div>
+      <div className='card-body cardbodyReview'>
+        <div className='card2'>
         <h1 className='titleReview'>seguridad integral con excelente BMS</h1>
         <p className='textReview'>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
       </div>
-      <div className="card" style={{width: '30rem', margin: '10PX', backgroundColor: 'transparent', border: '0px'}}>
-      <img src={imagen} className="card-img-top cardImgReview" alt="..."/>
-      <div className='card-body'>
-        <div className='cardReview'>
+      <div className="cardReview" >
+        <div className='cardImgReview'>
+        <img src={imagen} className="card-img-top" alt="..."/>
+        </div>
+      <div className='card-body cardbodyReview'>
+        <div className='card2'>
         <h1 className='titleReview'>seguridad integral con excelente BMS</h1>
         <p className='textReview'>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>

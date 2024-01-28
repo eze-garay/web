@@ -17,19 +17,23 @@
   .calculatorItem {
     margin-bottom: 10px; /* Ajusta el espacio entre el ícono y el input */
     font-size: 60px;
-    color: #ff5000;
+    color: #fd5000;
   }
   
   .calculatorInput {
-    width: 100px; /* Ajusta el ancho del input según tus necesidades */
-    text-align: center; /* Centra el texto dentro del input */
-    margin-bottom: 10px; /* Ajusta el espacio entre el input y la etiqueta "W" */
+    width: 400px; 
+    height: 50px; 
+    text-align: center; 
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 20px; 
+    font-size: 20px; 
   }
   
   .calculatorUnit {
     display: inline-block;
-    margin-left: 10px; /* Ajusta el espacio entre el input y la etiqueta "W" */
+    margin-left: 10px; 
     margin-bottom: 10px;
-    font-family: Gilory Bold;
+    font-family: 'Poppins', sans-serif;
     font-size: 40px;
   }

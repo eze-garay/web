@@ -5,14 +5,14 @@
     src: url(./fonts/Gilroy-Bold.ttf);
 }
 
-/* Banner */
+
 .myButton {
     display: inline-block;
     padding: 10px 20px; 
     text-align: center;
     text-decoration: none;
     color: white;
-    background-color: #ff5000; 
+    background-color: #fd5000; 
     border-radius: 20px; 
     cursor: pointer;
     
@@ -28,6 +28,8 @@
     font-family: Gilory Medium;
     color: white;
     font-size: 20px;
+    text-align: center;
+    justify-content: center;
 }
 
 .carousel-text {
@@ -39,5 +41,9 @@
 .carousel-text {
     margin-bottom: 200px;
    }
+}
+@media (max-width: 800px) {
+    
+
 }
 

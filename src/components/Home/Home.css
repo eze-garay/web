@@ -15,6 +15,10 @@
     height: 100%;
 }
 
+.conteinerHome {
+    background-color: transparent;
+}
+
 
 /*Header*/
 .conteinerHeader {
@@ -27,7 +31,8 @@
 }
 
 .SliderProducts{
-    background-color: #ff5000;
+    background-color: #fd5000;
+    
      
 }
 
@@ -35,7 +40,7 @@
 font-family: Gilory Bold;
 color: white;
 font-size: 30px;
-margin: 30PX;
+padding-left: 10%;
 
 }
 
@@ -48,7 +53,7 @@ margin: 30PX;
     font-size: 40px; 
 }
 .homeText{
-    font-family: Gilory Medium;
+    font-family: 'Poppins', sans-serif;
     color: gray;
 }
 
@@ -62,13 +67,17 @@ margin: 30PX;
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 100vh;
+    height: 60vh;
+    margin-bottom: 10px;
+
 }
 
 .conteinerBody21 {
     padding-top:  100px ;
     width: 50%;
     height: 100%vh; 
+    padding-left: 10%;
+
 }
 
 .conteinerBody22 {
@@ -83,11 +92,13 @@ margin: 30PX;
 .conteinerBody3 {
     display: flex;
     flex: 1;
+    width: 100%;
+    height: 50vh;
     background-image: url('./assests/imagen1.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
-    padding: 50px; /* Ajusta el relleno según tus necesidades */
+    
     
 }
 .conteinerBody31{
@@ -96,26 +107,25 @@ margin: 30PX;
     
 }
 .conteinerBody32 {
-    width: 50%;
-    height: 100vh;
+    padding: 50px;
+    
 }
 .conteinerBodyText{
     display: flex;
     flex-direction: column;
     justify-content: center;
     justify-content: flex-start;
-    margin: 30px;
 }
 
 .myButtonHome {
     margin-top: 20px;
     display: inline-block;
-    padding: 4px 8px; /* Ajusta el padding según tus necesidades */
+    padding: 4px 8px; 
     text-align: center;
     text-decoration: none;
     color: white;
-    background-color: #ff5000; /* Color de fondo del botón */
-    border-radius: 20px; /* Bordes redondos */
+    background-color: #fd5000; 
+    border-radius: 20px; 
     cursor: pointer;
     margin-left: 40px;
 }
@@ -196,7 +206,9 @@ margin: 30PX;
     /*Headers*/
     .TexTitle{
         font-size: 20px;
+        padding-left: 5%;
     }
+
     /*Slioder*/
     .imagenHome{
         display: flex;
@@ -205,9 +217,11 @@ margin: 30PX;
     .conteinerBody2 {
         display: flex;
         flex-direction: column;
+        margin-bottom: 200px;
     }
     .conteinerBody21 {
         padding-top: 10px;
+        padding-bottom: 10px;
         width: 100%;
         height: 50vh; 
     }
@@ -265,9 +279,7 @@ margin: 30PX;
 
 
 @media (max-width: 500px) {
-    .conteinerBody3 {
 
-    }
     .conteinerBody31{
         width: 50%;
         height: 10vh; 

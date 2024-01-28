@@ -6,6 +6,7 @@
 }
 
 .card-body {
-    font-family: 'Gilory Medium'; 
+    font-family: 'Poppins', sans-serif; 
+    font-size: 0.8rem;
     color: black;
 }

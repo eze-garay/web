@@ -15,6 +15,10 @@ const Blog = () => {
       <div className='bannerConteiner'>
       <Banner/>
       </div>
+      <div className='conteinerBlog'>
+
+      
+
       
 
       <div className="menuSlider">
@@ -115,7 +119,7 @@ const Blog = () => {
           </a>
         </div>
       </section>
-
+      </div>
       <footer className='conteinerFooter'>
         <p className='footerSocialTitle'>Jackery</p>
         <section className='footerSocial'>

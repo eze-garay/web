@@ -20,10 +20,12 @@ const CONTACTO = () => {
         </div>
 
       </header>
+      <div className='conteinerCon'>
       <div className='conteinerContactForm'>
           <div className='conteinerForm'>
             <Form/>
           </div>
+      </div>
       </div>
       <footer className='conteinerFooter'>
         <p className='footerSocialTitle'>Jackery</p>

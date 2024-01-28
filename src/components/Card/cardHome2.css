@@ -23,18 +23,29 @@
     font-family: 'Gilory Medium';
     color: gray;
 }
+.cardImgHome2 {
+    width: 285px; 
+    height: 285px;
+}
 .cardTextTitle2 {
     font-size: 15px;
     font-family: 'Gilory Bold';
-    color: #ff5000; 
+    color: #fd5000; 
 }
 
+@media (max-width: 800px) {
+    
+    .cardImgHome2 {
+        width: 100%; 
+        height: auto; 
+    }
+}
 
 @media (max-width: 500px) {
     
     .cardTextTitle2 {
         font-size: 10px;
         font-family: 'Gilory Bold';
-        color: #ff5000; 
+        color: #fd5000; 
     }
 }

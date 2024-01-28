@@ -21,24 +21,25 @@ const Calculator = () => {
   };
 
   return (
-    <div >
+    <div>
       <div className='calculatorContainer'>
-      < CiCalculator1 className='calculatorItem' onClick={calcularTiempoDeFuncionamiento}></CiCalculator1>
+        <CiCalculator1 className='calculatorItem' onClick={calcularTiempoDeFuncionamiento}></CiCalculator1>
 
         <input
-          type="number"
+          type="text"
+          inputMode="numeric"
+          pattern="[0-9]*"
           value={vataje}
           onChange={(e) => setVataje(e.target.value)}
           className='calculatorInput'
         />
         <span className='calculatorUnit'>W</span>
-
       </div>
       <div>
+        <PiClockClockwiseFill className='calculatorItem' />
         {tiempoDeFuncionamiento !== null && (
-          <p> <PiClockClockwiseFill className='calculatorItem'/> El tiempo de funcionamiento estimado es de {tiempoDeFuncionamiento} horas.</p>
+          <p>El tiempo de funcionamiento estimado es de {tiempoDeFuncionamiento} horas.</p>
         )}
-
       </div>
     </div>
   );

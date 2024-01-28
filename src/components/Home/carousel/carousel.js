@@ -15,7 +15,7 @@ const carousel1 = () => {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active d-flex align-items-center">
-  <img src={imagen} className="d-block w-100" alt="..." />
+  <img src={imagen} className="d-block img-fluid w-100" alt="..." style={{ width: '1920px', height: '798px' }}  />
   <div className="carousel-caption d-none d-md-block textCarousel carousel-text">
     <h1 className='carouselTexTitle'>Jackery</h1>
     <p className='carouselText'> La única solución de respaldo que necesita</p>
@@ -27,13 +27,21 @@ const carousel1 = () => {
 
 
     <div className="carousel-item">
-      <img src={imagen2} className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
+      <img src={imagen2} className="d-block img-fluid w-100" alt="..." style={{ width: '1920px', height: '798px' }} />
+      <div className="carousel-caption d-none d-md-block carousel-text ">
+      <p className='carouselText'> La única solución de respaldo que necesita</p>
+      <a href="https://tu-pagina.com" className="myButton " target="_blank" rel="noopener noreferrer">
+        EXPLORAR MÁS
+      </a>
       </div>
     </div>
     <div className="carousel-item">
-      <img src={imagen3} className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
+      <img src={imagen3} className="d-block img-fluid w-100" alt="..." style={{ width: '1920px', height: '798px' }} />
+      <div className="carousel-caption d-none d-md-block carousel-text">
+      <p className='carouselText'> La única solución de respaldo que necesita</p>
+      <a href="https://tu-pagina.com" className="myButton " target="_blank" rel="noopener noreferrer">
+        EXPLORAR MÁS
+      </a>
 
       </div>
     </div>
