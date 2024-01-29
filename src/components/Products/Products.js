@@ -3,6 +3,7 @@ import './Products.css'
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 import React from 'react';
+import Cards5  from '../sliders/cards5';
 import CardProduct from '../Card/CardProduct';
 import Gallery from '../gallery/gallery';
 import imagen from './assests/imagen1.jpg'
@@ -103,37 +104,12 @@ const PRODUCTOS = () => {
           <p className='textReview'>Ingresa el vataje del dispositivo (no supera los 1512 W)</p>
           <Calculator/>
         </div>
-        <div className="cardProducFotter">
-            <div className="card cardCalculator" style={{width: '18rem'}}>
-            <img src={imagen} className="card-img-top" alt="..."/>
-            <div className="card-body cardBodyFooter">
-            <h5 className="card-title titleReview">Card title</h5>
-            <p className="card-text textReview">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="https://tu-pagina.com" className="myButton mb-3" target="_blank" rel="noopener noreferrer">
-             EXPLORAR MÁS
-            </a>
-            </div>
-            </div>
-            <div className="card cardCalculator" style={{width: '18rem'}}>
-            <img src={imagen} className="card-img-top" alt="..."/>
-            <div className="card-body cardBodyFooter">
-            <h5 className="card-title titleReview">Card title</h5>
-            <p className="card-text textReview">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="https://tu-pagina.com" className="myButton mb-3" target="_blank" rel="noopener noreferrer">
-            EXPLORAR MÁS
-            </a>
-            </div>
-            </div>
-            <div className="card cardCalculator" style={{width: '18rem'}}>
-            <img src={imagen} className="card-img-top" alt="..."/>
-            <div className="card-body cardBodyFooter">
-            <h5 className="card-title titleReview">Card title</h5>
-            <p className="card-text textReview">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="https://tu-pagina.com" className="myButton mb-3" target="_blank" rel="noopener noreferrer">
-             EXPLORAR MÁS
-            </a>
-            </div>
-            </div>
+        <div id="novedades" className="cardSlider container mb-3">
+        <p className="texSlider">NOVEDADES</p>
+          <Cards5 />
+          <a href="https://tu-pagina.com" className="myButton mb-3" target="_blank" rel="noopener noreferrer">
+        EXPLORAR MÁS
+          </a>
         </div>
       </div>
 
