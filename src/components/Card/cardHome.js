@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './cardHome.css';
-import imagen from './assests/imagen1.jpg';
+import imagen from './assests/product1.png';
 
 const CardHome = () => {
   return (

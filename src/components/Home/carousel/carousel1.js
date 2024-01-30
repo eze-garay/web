@@ -1,18 +1,19 @@
 import React from 'react';
-import imagen from './assest/banner.jpg';
-import imagen2 from './assest/banner2.jpg';
-import './Carousel.css'; 
+import imagen from './assest/reseña2.jpg';
+
+import './carousel1.css'; 
 
 const CarouselHome = () => {
   return (
     <div>
-      <div id="carouselHome" className="carousel slide">
-        <div className="carousel-inner">
+      <div id="carouselHome" className="carousel slide caruselcontHome">
+        <div className="carousel-inner  ">
           <div className="carousel-item active">
-            <img src={imagen} className="carousel-image caruselImgenHome" alt="..." />
+          <img src={imagen} className="carousel-image caruselImgenHome  img-fluid " alt="..." />
+
           </div>
           <div className="carousel-item">
-            <img src={imagen2} className="carousel-image caruselImgenHome" alt="..." />
+          <img src={imagen} className="carousel-image caruselImgenHome  img-fluid " alt="..." />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">

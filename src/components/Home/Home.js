@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 import React from 'react';
 import CardHome from '../Card/cardHome.js'
 import Cardhome2 from '../Card/cardHome2.js';
-import imagen from './assests/imagen1.jpg'
+import imagen from './assests/novedad1.jpg'
 import CarouselHome from './carousel/carousel1.js';
 
 
@@ -54,7 +54,6 @@ const HOME = () => {
           <div className='conteinerBody32'>
           <CarouselHome/>
           </div>
-
         </div>
       </div>
   

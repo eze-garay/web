@@ -5,7 +5,11 @@
     src: url(./fonts/Gilroy-Bold.ttf);
 }
 
-
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
 .myButton {
     display: inline-block;
     padding: 10px 20px; 
@@ -35,15 +39,21 @@
 .carousel-text {
  margin-bottom: 400px;
 }
+.carousel-item img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+  }
 
-@media (max-width: 1100px) {
-/* Banner */
-.carousel-text {
-    margin-bottom: 200px;
-   }
-}
-@media (max-width: 800px) {
-    
 
-}
-
+  @media (max-width: 768px) {
+    .carousel-inner .carousel-item .carousel-text {
+      display: block !important; 
+    }
+    .carouselTexTitle{
+        font-size: 30px;
+    }
+    .carouselText{
+        font-size: 10px;
+    }
+  }
