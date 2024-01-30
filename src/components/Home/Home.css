@@ -11,12 +11,12 @@
 
 .conteiner {
     display:  flex;
-    width: 100%;
-    height: 100%;
+
 }
 
 .conteinerHome {
     background-color: transparent;
+
 }
 
 
@@ -58,9 +58,9 @@ padding-left: 10%;
 }
 
 .conteinerBody{
-    flex: 3; 
-    width: 100%vh;
-    height: 100vh;
+    flex: 4; 
+    width: 100%;
+    height: 100%;
 }
 
 .conteinerBody2 {
@@ -68,7 +68,7 @@ padding-left: 10%;
     flex-direction: row;
     width: 100%;
     height: 60vh;
-    margin-bottom: 10px;
+   
 
 }
 
@@ -91,13 +91,16 @@ padding-left: 10%;
 }
 .conteinerBody3 {
     display: flex;
-    flex: 1;
     width: 100%;
     height: 50vh;
     background-image: url('./assests/imagen1.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
+    
+    
+}
+.conteinerBody4 {
     
     
 }
