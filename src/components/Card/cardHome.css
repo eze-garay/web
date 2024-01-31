@@ -23,12 +23,14 @@
 .cardImgHome {
     width: 285px; 
     height: 285px;
+    background-color: #fd5000;
 }
 
 .cardTextHome {
     text-align: center;
-    font-family: 'Gilory Medium';
+    font-family: 'Poppins', sans-serif;
     color: black;
+    font-weight: bold;
 }
 
 

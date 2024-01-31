@@ -7,6 +7,8 @@ function cards() {
   return (
     <div className='conteiner'>
         <div className=' row justify-content-center '>
+        {
+        /*
         <div class="card border-0 mb-3" style={{ width: '18rem' }}>
          <img src={imagen} class="card-img-top" alt="..."/>
          <div class="card-body">
@@ -27,6 +29,8 @@ function cards() {
          </div>
          </div>
         </div>
+        */
+       
         <div class="card border-0 mb-3" style={{ width: '18rem' }}>
          <img src={imagen2} class="card-img-top" alt="..."/>
          <div class="card-body">
@@ -37,6 +41,8 @@ function cards() {
          </div>
          </div>
         </div>
+      }
+
         </div>
     </div>
     

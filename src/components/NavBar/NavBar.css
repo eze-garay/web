@@ -29,23 +29,23 @@
   .links {
     text-decoration: none;
     color: black;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     margin: 0 15px;
     font-family: 'Poppins', sans-serif;
   }
   
   .logo {
-    width: 100px;
+    width: 150px;
   }
   
   .iconsContainer {
     display: flex;
-    padding-left: 20%;
+    padding-left: 10%;
     
   }
   .logoContainer{
     display: flex;
-    padding-right: 20%;
+    padding-right: 10%;
   }
   
   .icon {
@@ -82,17 +82,20 @@
   }
   
   @media (max-width: 800px) {
-    .iconsContainer {
-        margin: 0;
-        padding: 0;
-        padding-left: 200px; /* Ajusta el margen derecho en la versión móvil */
-      }
+   
       .navOpen .iconsContainer {
         flex-direction: column;
         align-items: center;
         padding-left: 0;
         justify-content: center;
     }
+    .navBar{
+      justify-content: space-between;
+    }
+    .logoContainer {
+      padding-left: 10%;
+    }
+
   
   }
 
@@ -100,7 +103,7 @@
     .iconsContainer {
         margin: 0;
         padding: 0;
-        padding-left: 100px; /* Ajusta el margen derecho en la versión móvil */
+        padding-left: 100px; 
     }
     .navOpen .iconsContainer {
         flex-direction: column;

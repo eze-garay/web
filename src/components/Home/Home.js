@@ -44,9 +44,7 @@ const HOME = () => {
           </div>
         </div>
         <div className='conteinerBody4'>
-        <div> 
         <Cardhome2/>
-        </div>
         </div>
         <div className='conteinerBody3'>
           <div className='conteinerBody31'>

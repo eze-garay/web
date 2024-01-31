@@ -290,6 +290,14 @@
     .textReview{
      font-size: 10px;
     }
+    .titleReview{
+        background-color: transparent; 
+        font-family: 'Poppins', sans-serif;
+        color: black;
+        font-size: 10px;
+        text-align: center;
+       
+    }
     /*calculator*/
 
     .cardProducFotter {
