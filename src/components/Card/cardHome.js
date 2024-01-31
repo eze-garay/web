@@ -2,6 +2,9 @@
 import React from 'react';
 import './cardHome.css';
 import imagen from './assests/product1.png';
+import imagen2 from './assests/product1a.png';
+import imagen3 from './assests/product1b.png';
+import imagen4 from './assests/product1c.png';
 
 const CardHome = () => {
   return (
@@ -17,19 +20,19 @@ const CardHome = () => {
                 </div>
               </div>
               <div className= 'card cardHome border-0' >
-                <img src={imagen} className="card-img-top img-fluid cardImgHome" alt="..." />
+                <img src={imagen2} className="card-img-top img-fluid cardImgHome" alt="..." />
                 <div className="card-body cardBodyHome">
                   <p className="card-text cardTextHome">100W</p>
                 </div>
               </div>
               <div className= 'card cardHome border-0'>
-                <img src={imagen} className="card-img-top img-fluid cardImgHome" alt="..." />
+                <img src={imagen3} className="card-img-top img-fluid cardImgHome" alt="..." />
                 <div className="card-body cardBodyHome">
                   <p className="card-text cardTextHome">100W</p>
                 </div>
               </div>
               <div className= 'card cardHome border-0' >
-                <img src={imagen} className="card-img-top img-fluid cardImgHome" alt="..." />
+                <img src={imagen4} className="card-img-top img-fluid cardImgHome" alt="..." />
                 <div className="card-body cardBodyHome">
                   <p className="card-text cardTextHome">100W</p>
                 </div>
