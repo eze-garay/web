@@ -1,5 +1,6 @@
 import React from 'react';
-import imagen from './assest/reseña2.jpg';
+import imagen1 from './assest/reseña1.png';
+import imagen2 from './assest/reseña2.png';
 
 import './carousel1.css'; 
 
@@ -9,11 +10,11 @@ const CarouselHome = () => {
       <div id="carouselHome" className="carousel slide caruselcontHome">
         <div className="carousel-inner  ">
           <div className="carousel-item active">
-          <img src={imagen} className="carousel-image caruselImgenHome  img-fluid " alt="..." />
+          <img src={imagen1} className="carousel-image caruselImgenHome  img-fluid " alt="..." />
 
           </div>
           <div className="carousel-item">
-          <img src={imagen} className="carousel-image caruselImgenHome  img-fluid " alt="..." />
+          <img src={imagen2} className="carousel-image caruselImgenHome  img-fluid " alt="..." />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
