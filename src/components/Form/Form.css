@@ -62,20 +62,25 @@
     border-radius: 40px;
     cursor: pointer;
     font-size: 40px;
-  }
-  
-  .FileInput {
-    display: none;
-  }
-
-.FormButton {
-    display: flex;
-    justify-content: center;
 }
+  
+.FileInput {
+    display: none;
+}
+
+
 .FormTextButton{
     font-family: 'Poppins', sans-serif;
     color: gray;
 }
+
+.FormButton {
+    display: flex;
+    justify-content: center;
+    margin: 20px; 
+}
+
+
 .myButtonFooter {
     display: inline-block;
     padding: 4px 8px; 
@@ -86,18 +91,20 @@
     font-size: 20px;
     width: 20%;
     background-color: #fd5000; 
+    border: 1px solid #fd5000;
     border-radius: 15px; 
     cursor: pointer;
     margin: 40px;
-    transition: background-color 0.3s;
+
 }
 .myButtonFooter:hover {
     background-color: white;
     color: #fd5000;
     border: 1px solid #fd5000;
-    width: 20%;
+    transition: 0,5s;
+   
 
- }
+}
  .FormTextCont {
     resize: none; 
 }

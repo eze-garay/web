@@ -68,7 +68,7 @@ const Form = () => {
                     </label>
                 </div>
 
-                </div>
+                </div >
                 <div className="FormButton">
                     <button className="myButtonFooter" type="submit">Enviar</button>
                 </div>

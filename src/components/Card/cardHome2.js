@@ -1,8 +1,12 @@
 
 import React from 'react';
 import './cardHome2.css'
-import imagen2 from './assests/imagen1.jpg';
-import imagen3 from './assests/imagen3.jpg'
+import imagen1 from './assests/Generador solar 240.png'
+import imagen2 from './assests/Generador solar 500.png'
+import imagen3 from './assests/Generador solar 1000.png'
+import imagen4 from './assests/Solarsaga 100.png'
+import imagen5 from './assests/Generador solar 1000 2 paneles solares.png'
+import imagen6 from './assests/Explorer 500.png'
 
 const cardhome2 = () => {
   return (
@@ -13,24 +17,24 @@ const cardhome2 = () => {
           <div className="carousel-item active">
                   <div className='containerCards2'>
                           <div className="card border-0 cardHome2" >
-                      <img src={imagen2} className="card-img-top cardImgHome2 img-fluid" alt="..."/>
+                      <img src={imagen1} className="card-img-top cardImgHome2 img-fluid" alt="..."/>
                       <div className="card-body">
                           <p className="card-text cardText2">Combo</p>
-                          <p className="card-text cardTextTitle2">Combo 1</p>
+                          <p className="card-text cardTextTitle2">Generador solar 240</p>
                       </div>
                       </div>
                       <div className="card border-0 cardHome2" >
                       <img src={imagen2} className="card-img-top cardImgHome2 img-fluid" alt="..."/>
                       <div className="card-body">
                           <p className="card-text cardText2">Combo</p>
-                          <p className="card-text cardTextTitle2">Combo 2</p>
+                          <p className="card-text cardTextTitle2">Generador solar 500</p>
                       </div>
                       </div>
                       <div className="card border-0 cardHome2" >
-                      <img src={imagen2} className="card-img-top cardImgHome2 img-fluid" alt="..."/>
+                      <img src={imagen3} className="card-img-top cardImgHome2 img-fluid" alt="..."/>
                       <div className="card-body">
                           <p className="card-text cardText2">Combo</p>
-                          <p className="card-text cardTextTitle2">Combo 3</p>
+                          <p className="card-text cardTextTitle2">Generador solar 1000</p>
                       </div>
                       </div>
                   </div>
@@ -38,24 +42,24 @@ const cardhome2 = () => {
           <div className="carousel-item ">
                   <div className='containerCards2'>
                               <div className="card border-0 cardHome2" >
-                          <img src={imagen3} className="card-img-top cardImgHome2 img-fluid" alt="..."/>
+                          <img src={imagen4} className="card-img-top cardImgHome2 img-fluid" alt="..."/>
                           <div className="card-body">
                               <p className="card-text cardText2 ">Combo</p>
-                              <p className="card-text cardTextTitle2">Combo 4</p>
+                              <p className="card-text cardTextTitle2">Solarsaga 100</p>
                           </div>
                           </div>
                           <div className="card border-0 cardHome2" >
-                          <img src={imagen3} className="card-img-top cardImgHome2 img-fluid" alt="..."/>
+                          <img src={imagen5} className="card-img-top cardImgHome2 img-fluid" alt="..."/>
                           <div className="card-body">
                               <p className="card-text cardText2">Combo</p>
-                              <p className="card-text cardTextTitle2">Combo 5</p>
+                              <p className="card-text cardTextTitle2">Generador solar 1000 2</p>
                           </div>
                           </div>
                           <div className="card border-0 cardHome2" >
-                          <img src={imagen3} className="card-img-top cardImgHome2 img-fluid" alt="..."/>
+                          <img src={imagen6} className="card-img-top cardImgHome2 img-fluid" alt="..."/>
                           <div className="card-body">
                               <p className="card-text cardText2">Combo</p>
-                              <p className="card-text cardTextTitle2">Combo 6</p>
+                              <p className="card-text cardTextTitle2">Explorer 500</p>
                           </div>
                           </div>
                   </div>

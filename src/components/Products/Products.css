@@ -25,7 +25,7 @@
 .borderContainer {
     position: relative;
 
-  }
+}
   
 
 .conteinerProducts1Imagen {
@@ -40,12 +40,11 @@
 }
 
 .conteinerProducts1ImagenText {
-    width: 30%;
-    height: 100%; 
+    width: 40%;
+    height: 80%; 
     flex-direction: column;
     text-align: center;
     align-items: center;
-    padding-left: 10%;
     
 }
 
@@ -71,17 +70,24 @@
     color: gray;
     font-size: 20px;
 }
-.myButton {
+.myButtonProduct {
     display: inline-block;
-    padding: 10px 20px; /* Ajusta el padding según tus necesidades */
+    padding: 10px 20px; 
     text-align: center;
     text-decoration: none;
     color: white;
-    background-color: #ff5000; /* Color de fondo del botón */
-    border-radius: 20px; /* Bordes redondos */
+    background-color: #fd5000; 
+    border-radius: 20px; 
     cursor: pointer;
     
 }
+.myButtonProduct:hover {
+    background-color: white;
+    color: #fd5000;
+    border: 1px solid #fd5000;
+    
+
+ }
 /*Body Description*/
 .ProductDescription{
     display: flex;

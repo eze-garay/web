@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './CardProduct.css';
 
-import imagen1 from './assests/imagen1.jpg';
+import imagen1 from './assests/vista1.png';
 import vista1 from './assests/vista1.png';
 import vista2 from './assests/vista2.png';
 import vista3 from './assests/vista3.png';

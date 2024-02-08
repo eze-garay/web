@@ -22,7 +22,9 @@ const HOME = () => {
         </div>
         <div className='SliderProducts'>
         <h1 className='TexTitle'>NUESTROS PRODUCTOS</h1>
+        <div className='SliderCards'>
         <CardHome/>
+        </div>
         </div>
       </header>
 

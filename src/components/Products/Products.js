@@ -27,7 +27,7 @@ const PRODUCTOS = () => {
       <p className='BodyProducts'>Energía verde y renovable para exploración al aire libre y respaldo de emergencia.</p>
       <p className='BodyProducts'>Energía verde y renovable para exploración al aire libre y respaldo de emergencia.</p>
       <p className='BodyProducts'>Energía verde y renovable para exploración al aire libre y respaldo de emergencia.</p>
-      <a href="https://tu-pagina.com" className="myButton mb-3" target="_blank" rel="noopener noreferrer">
+      <a href="https://tu-pagina.com" className="myButtonProduct mb-3" target="_blank" rel="noopener noreferrer">
         COMPRAR AHORA
       </a>
     </div>

@@ -20,7 +20,7 @@ const carousel1 = () => {
   <img src={imagen} className="d-block img-fluid w-100 imgHome1" alt="..." style={{ width: '1920px', height: '798px' }}  />
   <div className="carousel-caption d-none d-md-block textCarousel carousel-text">
     <h1 className='carouselTexTitle'>Jackery</h1>
-    <p className='carouselText'> La única solución de respaldo que necesita</p>
+    <p className='carouselText'> La libertad de tener energía en cualquier lugar</p>
     <a href="https://tu-pagina.com" className="myButton " target="_blank" rel="noopener noreferrer">
       EXPLORAR MÁS
     </a>
@@ -29,7 +29,7 @@ const carousel1 = () => {
     <div className="carousel-item ">
       <img src={imagen2} className="d-block img-fluid w-100 imgHome1" alt="..." style={{ width: '1920px', height: '798px' }} />
       <div className="carousel-caption d-none d-md-block carousel-text ">
-      <p className='carouselText'> La única solución de respaldo que necesita</p>
+      <p className='carouselText'> Anímate a crear tu estilo de vida en armonía con el entorno</p>
       <a href="https://tu-pagina.com" className="myButton " target="_blank" rel="noopener noreferrer">
         EXPLORAR MÁS
       </a>
@@ -38,7 +38,8 @@ const carousel1 = () => {
     <div className="carousel-item">
       <img src={imagen3} className="d-block img-fluid w-100 imgHome1" alt="..." style={{ width: '1920px', height: '798px' }} />
       <div className="carousel-caption d-none d-md-block carousel-text">
-      <p className='carouselText'> La única solución de respaldo que necesita</p>
+      <p className='carouselText'> La marca líder en el mundo</p>
+      <p className='carouselText'> 3 millones de unidades - Más de 200 reviews en medios</p>
       <a href="https://tu-pagina.com" className="myButton " target="_blank" rel="noopener noreferrer">
         EXPLORAR MÁS
       </a>
@@ -47,7 +48,8 @@ const carousel1 = () => {
     <div className="carousel-item">
       <img src={imagen4} className="d-block img-fluid w-100 imgHome1" alt="..." style={{ width: '1920px', height: '798px' }} />
       <div className="carousel-caption d-none d-md-block carousel-text ">
-      <p className='carouselText'> La única solución de respaldo que necesita</p>
+      <p className='carouselText'>Energía portátil para lo que necesites</p>
+      <p className='carouselText'>Aire libre, trabajo emergencias. Siempre listo</p>
       <a href="https://tu-pagina.com" className="myButton " target="_blank" rel="noopener noreferrer">
         EXPLORAR MÁS
       </a>

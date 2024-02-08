@@ -28,13 +28,14 @@
     margin-top: 3rem;
     width: 100%;
     height: 100%;
-    
+    background-color: #fd5000;
 }
 
-.SliderProducts{
-    background-color: #fd5000;
-    
-     
+
+.SliderCards{
+    max-width: 80%;  
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .TexTitle {
@@ -223,6 +224,7 @@ padding-bottom: 2%;
         padding-left: 5%;
     }
 
+
     /*Slioder*/
     .imagenHome{
         display: flex;
@@ -254,6 +256,7 @@ padding-bottom: 2%;
     }
     .conteinerBody4 {
         padding-top: 0;
+        justify-content: center;
         
     }
     
@@ -297,6 +300,7 @@ padding-bottom: 2%;
         height: 10vh; 
         
     }
+
     .conteinerBody32 {
         width: 50%;
         height: 10vh;
