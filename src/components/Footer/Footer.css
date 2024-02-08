@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Gilory Medium';
+    src: url('./fonts/Gilroy-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Gilory Bold';
+    src: url('./fonts/Gilroy-Bold.ttf');
+}
+
+
+
+.conteinerFooter {
+    flex: 1; 
+    background-color: #393737;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.footerSocial {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    color: white;
+}
+
+
+
+.footerLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+    
+}
+
+.Links {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    padding: 20px;
+}
+
+.footerTex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+    margin: 20px;
+}
+
+.footerTex1 {
+    color: white;
+    font-size: 15px;
+    font-family: Gilory Medium;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.footerTex2{
+    color: white;
+    padding-top: 40px;
+    font-size: 10px;
+    font-family: Gilory Medium;
+}
+
+.LogoFooter {
+    width: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/* Media Queries */
+
+@media (max-width: 800px) {
+    .footerSocial {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footerSocialTitle {
+        margin-right: 0; 
+    }
+
+    .footerLinks {
+        flex-direction: column;
+    }
+
+    .Links {
+        padding: 10px;
+    }
+
+    .footerTex {
+        flex-direction: column;
+    }
+    
+    .footerTex1,
+    .footerTex2 {
+        padding: 10px;
+    }
+    .footerTex1{
+        margin-left: 0;
+        border-top: 1px solid white;
+        border-bottom: none;
+    }
+}

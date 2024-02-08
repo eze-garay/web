@@ -11,12 +11,13 @@
 
 .containerCards2 {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
+    
 }
 .cardHome2 {
- margin: 20px;
+    margin: 20px;
+    width: calc(30% - 40px);
 }
 .cardText2 {
     font-size: 10px;
@@ -34,7 +35,7 @@
 }
 @media (max-width: 1000px) {
     .containerCards2 {
-        margin-top: 100px;
+       
     }
     
     .cardImgHome2 {

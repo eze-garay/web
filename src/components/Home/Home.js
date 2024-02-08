@@ -1,13 +1,12 @@
 
 import './Home.css'
 import Carousel1 from './carousel/carousel';
-import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
-import { Link } from 'react-scroll';
 import React from 'react';
 import CardHome from '../Card/cardHome.js'
 import Cardhome2 from '../Card/cardHome2.js';
 import imagen from './assests/novedad1.jpg'
 import CarouselHome from './carousel/carousel1.js';
+import Footer from '../Footer/Footer.js';
 
 
 const HOME = () => {
@@ -56,37 +55,8 @@ const HOME = () => {
           </div>
         </div>
       </div>
-  
-  
-    
-
       <footer className='conteinerFooter'>
-        <p className='footerSocialTitle'>Jackery</p>
-        <section className='footerSocial'>
-          <div className='footerLinks'>
-            <Link to='' className='Links'>
-              <FaFacebook />
-            </Link>
-            <Link to='' className='Links'>
-              <FaTwitter />
-            </Link>
-            <Link to='' className='Links'>
-              <FaInstagram />
-            </Link>
-          </div>
-        </section>
-        <section className='footerTex'>
-          <div className='footerTex1'>
-            <p>Contactenos : 0351000000</p>
-          </div>
-          <div className='footerTex1'>
-            <p>Calle Falsa 123</p>
-          </div>
-          <div className='footerTex1'>
-            <p>consultas@jackery.com</p>
-          </div>
-        </section>
-        <p className='footerTex2'>@2024 Jackery Inc. All rights reserved</p>
+        <Footer/>
       </footer>
     </div>
 

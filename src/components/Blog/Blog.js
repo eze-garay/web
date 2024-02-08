@@ -6,8 +6,8 @@ import Cards2 from '../sliders/cards2';
 import Cards3 from '../sliders/cards3';
 import Cards4 from '../sliders/cards4';
 import Cards5 from '../sliders/cards5';
-import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import { Link } from 'react-scroll';
+import Footer from '../Footer/Footer';
 
 const Blog = () => {
   return (
@@ -121,32 +121,7 @@ const Blog = () => {
       </section>
       </div>
       <footer className='conteinerFooter'>
-        <p className='footerSocialTitle'>Jackery</p>
-        <section className='footerSocial'>
-          <div className='footerLinks'>
-            <Link to='' className='Links'>
-              <FaFacebook />
-            </Link>
-            <Link to='' className='Links'>
-              <FaTwitter />
-            </Link>
-            <Link to='' className='Links'>
-              <FaInstagram />
-            </Link>
-          </div>
-        </section>
-        <section className='footerTex'>
-          <div className='footerTex1'>
-            <p>Contactenos : 0351000000</p>
-          </div>
-          <div className='footerTex1'>
-            <p>Calle Falsa 123</p>
-          </div>
-          <div className='footerTex1'>
-            <p>consultas@jackery.com</p>
-          </div>
-        </section>
-        <p className='footerTex2'>@2024 Jackery Inc. All rights reserved</p>
+        <Footer/>
       </footer>
     </div>
   );

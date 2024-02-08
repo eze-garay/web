@@ -68,8 +68,7 @@
   .BannerTex {
     width: 100%;
     height: auto;
-    padding-left: 20%;
-    padding-right: 5%;
+    margin: 10%;
     text-align: start;
 
   }
@@ -90,6 +89,7 @@
     font-family: Gilory Medium;
     color: white;
     font-size: 10px;
+    margin-right: 10%;
   }
 
   .buttonBanner {
@@ -129,10 +129,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-left: 0px;
+        margin: 0;
       }
       .buttonBanner {
-
+        margin-top: 5%;
         margin-left: 0%;
         
       }
@@ -147,6 +147,7 @@
     
       .BannerTexBody {
         font-size: 8px;
+        margin: 0;
       }
 }  
 

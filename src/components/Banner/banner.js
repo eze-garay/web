@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './banner.css';
-import banner from './assest/banner.jpg';
+import banner from './assest/banerBlog.jpg';
 
 const Banner = () => {
   return (
@@ -11,7 +11,8 @@ const Banner = () => {
         <div className="stripe-8">
          <div className='BannerTex'>
                 <h1 className='BannerTexTitle'>Jackery</h1>
-                <h2 className='BannerTexSubTitle'>GENERADORES SOLARES</h2>
+                <h2 className='BannerTexSubTitle'>GENERADORES</h2>
+                <h2 className='BannerTexSubTitle'>SOLARES</h2>
                 <p className='BannerTexBody'>
                 Una solución que utiliza energía verde y renovable para exploración al aire libre y respaldo de emergencia
                 </p>

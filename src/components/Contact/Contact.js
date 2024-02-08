@@ -1,12 +1,7 @@
 import './Contact.css'
-import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
-import { Link } from 'react-scroll';
 import React from 'react';
 import Form from '../Form/Form';
-
-
-
-
+import Footer from '../Footer/Footer';
 
 const CONTACTO = () => {
 
@@ -28,33 +23,9 @@ const CONTACTO = () => {
       </div>
       </div>
       <footer className='conteinerFooter'>
-        <p className='footerSocialTitle'>Jackery</p>
-        <section className='footerSocial'>
-          <div className='footerLinks'>
-            <Link to='' className='Links'>
-              <FaFacebook />
-            </Link>
-            <Link to='' className='Links'>
-              <FaTwitter />
-            </Link>
-            <Link to='' className='Links'>
-              <FaInstagram />
-            </Link>
-          </div>
-        </section>
-        <section className='footerTex'>
-          <div className='footerTex1'>
-            <p>Contactenos : 0351000000</p>
-          </div>
-          <div className='footerTex1'>
-            <p>Calle Falsa 123</p>
-          </div>
-          <div className='footerTex1'>
-            <p>consultas@jackery.com</p>
-          </div>
-        </section>
-        <p className='footerTex2'>@2024 Jackery Inc. All rights reserved</p>
+        <Footer/>
       </footer>
+
     </div>
 
 
