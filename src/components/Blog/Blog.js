@@ -17,9 +17,6 @@ const Blog = () => {
       </div>
       <div className='conteinerBlog'>
 
-      
-
-      
 
       <div className="menuSlider">
           <Link
@@ -106,7 +103,7 @@ const Blog = () => {
         <div id="conocimiento" className="cardSlider container mb-3">
         <p className="texSlider">CONOCIMIENTO</p>
           <Cards4 />
-          <a href="https://tu-pagina.com" className="myButton mb-3" target="_blank" rel="noopener noreferrer">
+          <a href="/Blog/Nota1" className="myButton mb-3" target="_blank" rel="noopener noreferrer">
         EXPLORAR MÁS
           </a>
         </div>

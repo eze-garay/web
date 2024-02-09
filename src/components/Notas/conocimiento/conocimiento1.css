@@ -1,0 +1,26 @@
+
+.NotaConteiner {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-gap: 20px; 
+    padding: 20px;
+    background-color: #EDEDED;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.NotaTexConteiner {
+    text-align: justify;
+}
+
+
+.NotaImgConteiner {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.NotaImgConteiner img {
+    max-width: 100%; 
+    height: auto; 
+}
