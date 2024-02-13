@@ -71,6 +71,7 @@
     margin: 10%;
     text-align: start;
 
+
   }
   
   .BannerTexTitle {
@@ -106,50 +107,7 @@
   }
 
   
-  @media (max-width: 850px) {
-    .half-width {
-       display: none;
-    }
-    .banner-image {
-       display: none;
-    }
-    .div3 {
-        display: none;
-    }
-    .img {
-        display: none;
-      }
-      .BannerImg {
-        display: none;
-      }
-      .BannerTex {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-      }
-      .buttonBanner {
-        margin-top: 5%;
-        margin-left: 0%;
-        
-      }
-    
-      .BannerTexTitle {
-        font-size: 40px;
-      }
-    
-      .BannerTexSubTitle {
-        font-size: 16px;
-      }
-    
-      .BannerTexBody {
-        font-size: 8px;
-        margin: 0;
-      }
-}  
+ 
 
 @media (max-width: 1000px) {
 
@@ -158,3 +116,55 @@
       }
  
 }  
+
+@media (max-width: 850px) {
+  .half-width {
+     display: none;
+  }
+  .banner-image {
+     display: none;
+  }
+  .div3 {
+      display: none;
+  }
+  .img {
+      display: none;
+    }
+    .BannerImg {
+      display: none;
+    }
+    .BannerTex {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+    .buttonBanner {
+      margin-top: 5%;
+      margin-left: 0%;
+      
+    }
+  
+    .BannerTexTitle {
+      font-size: 40px;
+    }
+  
+    .BannerTexSubTitle {
+      font-size: 16px;
+    }
+  
+    .BannerTexBody {
+      font-size: 8px;
+      margin: 0;
+    }
+} 
+
+@media (max-width: 500px) {
+
+  .BannerTexBody {
+    text-align: center;
+  }
+} 
