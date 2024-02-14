@@ -12,15 +12,28 @@ const footer = () => {
         { id: 2, icon: icon2, link: '/ruta-icono-2' },
         { id: 3, icon: icon3, link: '/ruta-icono-3' },
     ];
+    
+    const links = [
+        { id: 1, text: 'Home', route: '/' },
+        { id: 2, text: 'Blog', route: '/Blog' },
+        { id: 3, text: 'Contactenos', route: '/CONTACTO' },
+    ];
 
     return (
         <footer className='conteinerFooter'>
+            <section className='footerSocial'>
+            <div className='footerLinksText'>
+                    {links.map((link) => (    
+                        <Link onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} 
+                        key={link.id} to={link.route} className="footerLinksText1">
+                            {link.text}
+                        </Link>
+                    ))}
+                </div>
+            </section>
             <section className='footerTex'>
                 <div className='footerTex1'>
-                    <p>Contactenos : 0351000000</p>
-                </div>
-                <div className='footerTex1'>
-                    <p>Calle Falsa 123</p>
+                    <p>Avenida Providencia 1650 Providencia Metropolitana de Santiago</p>
                 </div>
                 <div className='footerTex1'>
                     <p>consultas@jackery.com</p>
@@ -36,7 +49,7 @@ const footer = () => {
                     ))}
                 </div>
             </section>
-            <p className='footerTex2'>@2024 Jackery Inc. All rights reserved</p>
+            <p className='footerTex2'>Comercializado en Latinoamérica por Latamly S.A.</p>
         </footer>
     );
 };

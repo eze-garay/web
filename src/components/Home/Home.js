@@ -33,7 +33,8 @@ const HOME = () => {
             <div className='conteinerBodyText'>
               <p className='homeText'>Nuevos ingresos 2024</p>
               <h1 className='homeTextTitle'>Generador Solar</h1>
-              <p className='homeText'>Energía verde y renovable para exploración al aire libre y respaldo de emergencia.</p>
+              <p className='homeText'>Energía verde y renovable para exploración</p>
+              <p className='homeText'>al aire libre y respaldo de emergencia.</p>
             </div>
             <a href="https://tu-pagina.com" className="myButtonHome " target="_blank" rel="noopener noreferrer">
                 EXPLORAR MÁS

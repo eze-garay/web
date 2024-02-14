@@ -44,7 +44,7 @@ const cardhome2 = () => {
                               <div className="card border-0 cardHome2" >
                           <img src={imagen4} className="card-img-top cardImgHome2" alt="..."/>
                           <div className="card-body">
-                              <p className="card-text cardText2 ">Combo</p>
+                              <p className="card-text cardText2 ">Panel solar</p>
                               <p className="card-text cardTextTitle2">Solarsaga 100</p>
                           </div>
                           </div>

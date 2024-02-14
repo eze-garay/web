@@ -32,7 +32,7 @@ const Form = () => {
                         <div className="FormButton">
                         <label className="FormTextButton boxPoliticas">
                         <input type="checkbox" {...register("aceptarPoliticas")} checked={aceptarPoliticas} onChange={() => setAceptarPoliticas(!aceptarPoliticas)} />
-                        Acepto las políticas de la empresa.
+                        He leído y acepto <a href="https://drive.google.com/file/d/17N4uMVdWZSPYSKvcjHJIkueyUi3SZt2v/view?usp=drive_link" target="_blank" rel="noopener noreferrer">políticas de privacidad</a>.
                      </label>
                         </div>
                     </div>
@@ -58,13 +58,13 @@ const Form = () => {
                 <div id="opcion" className="FormButton">
                     <label className="FormTextButton">
                         <input type="checkbox" {...register("recibirInformacion")} checked={recibirInformacion} onChange={() => setRecibirInformacion(!recibirInformacion)} />
-                        Quiero recibir novedades de Jackery en mi correo.
+                        Suscríbete y entérate de todas las novedades y promociones
                     </label>
                 </div>
                 <div className="FormButton">
                     <label className="FormTextButton">
                         <input type="checkbox" {...register("otroCheckbox")} checked={otroCheckbox} onChange={() => setOtroCheckbox(!otroCheckbox)} />
-                        Otro checkbox independiente.
+                        Quiero realizar una compra corporativa - B2B
                     </label>
                 </div>
 

@@ -47,13 +47,13 @@ const CardHome = () => {
           <div className="carousel-item active border-0 ">
           <div className=" w-100 containerCards">
           <div className= 'card cardHome border-0'>
-                <img src={imagen5} className="card-img-top img-fluid cardImgHome" alt="..." />
+                <img src={imagen6} className="card-img-top img-fluid cardImgHome" alt="..." />
                 <div className="card-body cardBodyHome">
                   <p className="card-text cardTextHome">Generador solar 240</p>
                 </div>
               </div>
               <div className= 'card cardHome border-0' >
-                <img src={imagen6} className="card-img-top img-fluid cardImgHome" alt="..." />
+                <img src={imagen5} className="card-img-top img-fluid cardImgHome" alt="..." />
                 <div className="card-body cardBodyHome">
                   <p className="card-text cardTextHome">Generador solar 500</p>
                 </div>

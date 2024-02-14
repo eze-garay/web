@@ -70,8 +70,6 @@
     height: auto;
     margin: 10%;
     text-align: start;
-
-
   }
   
   .BannerTexTitle {
@@ -107,7 +105,12 @@
   }
 
   
- 
+  @media (min-width: 1001px) {
+    .BannerTex {
+      margin-left: 10vh;
+      margin-right: 15vh;
+    }
+  }
 
 @media (max-width: 1000px) {
 
@@ -168,3 +171,4 @@
     text-align: center;
   }
 } 
+

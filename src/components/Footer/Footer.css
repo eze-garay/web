@@ -35,6 +35,18 @@
     align-items: center; 
     
 }
+.footerLinksText{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+}
+.footerLinksText1 {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    
+}
 
 .Links {
     color: white;
