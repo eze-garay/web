@@ -61,7 +61,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; 
+     
     margin: 20px;
 }
 
@@ -88,7 +88,6 @@
     margin-top: 5%;
     margin-bottom: 5%;
 }
-/* Media Queries */
 
 @media (max-width: 800px) {
     .footerSocial {
@@ -110,15 +109,35 @@
 
     .footerTex {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
     .footerTex1,
     .footerTex2 {
         padding: 10px;
+        text-align: center; /* Añadido para centrar el texto */
     }
-    .footerTex1{
+    .footerTex1 {
         margin-left: 0;
         border-top: 1px solid white;
         border-bottom: none;
+    }
+    
+    /* Asegurar que los iconos y el último texto se mantengan dentro del footer */
+    .footerSocial,
+    .footerLinks {
+        flex-wrap: wrap;
+    }
+
+    .footerLinks,
+    .footerLinksText {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footerLinksText1,
+    .iconLink {
+        margin: 10px;
     }
 }

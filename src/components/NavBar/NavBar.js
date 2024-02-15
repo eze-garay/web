@@ -6,11 +6,12 @@ import icon2 from './assest/iconos redes-02.svg';
 import icon3 from './assest/iconos redes-03.svg';
 import { IoMenu } from 'react-icons/io5';
 import { IoClose } from 'react-icons/io5';
-
 import './NavBar.css';
 
 const NavBar = () => {
   const [navBarOpen, setNavBarOpen] = useState(false);
+  const [productsMenuOpen, setProductsMenuOpen] = useState(false); // Nuevo estado para controlar el menú de productos
+
   const [windowDimension, setWindowDimension] = useState({
     width: window.innerWidth,
     height: window.innerHeight,
@@ -43,6 +44,19 @@ const NavBar = () => {
     { id: 4, link: "CONTACTO" },
   ];
 
+  const productsMenuOptions = [ 
+    { id: 1, link: "/PRODUCTOS/Jackery Explorer 240", text: "Jackery Explorer 240" },
+    { id: 2, link: "/PRODUCTOS/Jackery Explorer 500", text: "Jackery Explorer 500" },
+    { id: 3, link: "/PRODUCTOS/Jackery Explorer 1000", text: "Jackery Explorer 1000" },
+    { id: 4, link: "/producto1", text: "Producto 4" },
+    { id: 5, link: "/producto2", text: "Producto 5" },
+    { id: 6, link: "/producto3", text: "Producto 6" },
+    { id: 7, link: "/producto1", text: "Producto 7" },
+    { id: 8, link: "/producto2", text: "Producto 8" },
+
+    
+  ];
+
   const icons = [
     { id: 1, icon: icon1, link: '/ruta-icono-1' },
     { id: 2, icon: icon2, link: '/ruta-icono-2' },
@@ -60,13 +74,32 @@ const NavBar = () => {
             <ul className='linksConteiner'>
               {links.map((x) => (
                 <li key={x.id}>
-                  <Link
-                    to={x.link}
-                    onClick={() => setNavBarOpen(false)}
-                    className='links'
-                  >
-                    {x.link}
-                  </Link>
+                  {x.link === "PRODUCTOS" ? ( 
+                    <div className="productsMenu">
+                      <button onClick={() => setProductsMenuOpen(!productsMenuOpen)} className="productsMenuButton">
+                        {x.link} 
+                      </button>
+                      {productsMenuOpen && (
+                        <ul className="productsMenuOptions">
+                          {productsMenuOptions.map(option => (
+                            <li key={option.id}>
+                              <Link to={option.link} onClick={() => setNavBarOpen(false)} className='links'>
+                                {option.text}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                  ) : (
+                    <Link
+                      to={x.link}
+                      onClick={() => setNavBarOpen(false)}
+                      className='links'
+                    >
+                      {x.link}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>

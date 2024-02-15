@@ -80,6 +80,45 @@
     width: 100%;
     justify-content: center;
   }
+  .productsMenuButton {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    outline: none;
+    align-items: center;
+    padding: 0; 
+    margin: 0 15px; 
+  }
+  
+  .productsMenuButton::after {
+    content: '\25BE'; 
+    margin-left: 0.5em;
+  }
+  
+  .productsMenuOptions {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0; 
+  }
+  
+  .productsMenuOptions li {
+    margin: 0.5em 0;
+  }
+  
+  .productsMenuOptions li a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Ajuste de alineación vertical */
+  .navBar, .navOpen {
+    align-items: flex-start;
+  }
   
   @media (max-width: 800px) {
    
