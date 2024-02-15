@@ -1,0 +1,24 @@
+.cardProductBody{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+}
+.cardSliderProduct{
+    width: 600px;
+    height: 600px;
+    max-Width: 100vh;
+
+}
+
+
+
+@media (max-width: 500px) {
+    .cardSliderProduct {
+        width: 400px;
+        height: 400px;
+        max-Width: 50vh;
+    }
+    .cardProductBody{
+        width: 300px;
+    }
+}
