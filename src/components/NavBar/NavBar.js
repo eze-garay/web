@@ -48,11 +48,11 @@ const NavBar = () => {
     { id: 1, link: "/PRODUCTOS/Jackery Explorer 240", text: "Jackery Explorer 240" },
     { id: 2, link: "/PRODUCTOS/Jackery Explorer 500", text: "Jackery Explorer 500" },
     { id: 3, link: "/PRODUCTOS/Jackery Explorer 1000", text: "Jackery Explorer 1000" },
-    { id: 4, link: "/producto1", text: "Producto 4" },
-    { id: 5, link: "/producto2", text: "Producto 5" },
-    { id: 6, link: "/producto3", text: "Producto 6" },
-    { id: 7, link: "/producto1", text: "Producto 7" },
-    { id: 8, link: "/producto2", text: "Producto 8" },
+    { id: 4, link: "/PRODUCTOS/Jackery SolarSaga 100", text: "Jackery SolarSaga 100" },
+    { id: 5, link: "/PRODUCTOS/Jackery Generador Solar 1000 - 2 paneles", text: "Jackery Generador Solar 1000 - 2 paneles" },
+    { id: 6, link: "/PRODUCTOS/Jackery Generador Solar 1000 ", text: "Jackery Generador Solar 1000" },
+    { id: 7, link: "/PRODUCTOS/Jackery Generador Solar 500", text: "Jackery Generador Solar 500" },
+    { id: 8, link: "/PRODUCTOS/Jackery Generador Solar 240", text: "Jackery Generador Solar 240" },
 
     
   ];

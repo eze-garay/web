@@ -2,11 +2,11 @@
 import './Products.css'
 import React from 'react';
 import Cards5  from '../sliders/cards5';
-import CardProduct from '../Card/cardProducts/CardProduct1'
-import Gallery from '../gallery/gallery1';
-import imagen from './assests/producto1/240131-Jackery-Web-Aspectos Especiales-1920x1080-01.jpg'
-import imagen2 from './assests/producto1/240131-Jackery-Web-Aspectos Especiales-1920x1080-02.jpg'
-import CardIcons from '../Card/cardIcons/cardIcons1';
+import CardProduct from '../Card/cardProducts/CardProduct3'
+import Gallery from '../gallery/gallery3';
+import imagen from './assests/producto3/240131-Jackery-Web-Aspectos Edxplorer 1000-1920x1080-01.jpg'
+import imagen2 from './assests/producto3/240131-Jackery-Web-Aspectos Edxplorer 1000-1920x1080-02.jpg'
+import CardIcons from '../Card/cardIcons/cardIcons3';
 import Calculator from '../calculator/calculator';
 import Footer from '../Footer/Footer';
 
@@ -43,7 +43,6 @@ const PRODUCTOS3 = () => {
     <div className='borderContainer'>
             <p className='BodyProducts'>
             ¡Crea tu propio estilo de vida! La Explorer 1000 es una estación de energía portátil lo suficientemente potente para alimentar tus dispositivos electrónicos favoritos y lo suficientemente liviana para llevarla a cualquier parte.
-
             </p>
     </div>
     </div>
